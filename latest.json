@@ -1,0 +1,17 @@
+{
+ "manifest": {
+  "version": "0.76",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.76.exe",
+  "sha256": "40f1ea327eef6286571d3fea7f8c6214efad9d47c58e5bf355a2f53a9fb2a745",
+  "size": 34262452,
+  "notes": [
+   "ระบบแจ้งเตือนอัปเดตอัตโนมัติ เช็คเวอร์ชันใหม่ทุกครั้งที่เปิดโปรแกรม",
+   "กด “อัปเดตเลย” แล้วโปรแกรมดาวน์โหลด ติดตั้ง และเปิดใหม่ให้เอง",
+   "ตรวจเองได้ที่ เครื่องมือ → ตรวจสอบอัปเดต",
+   "LINE ร้านค้าเปลี่ยนเป็น @proremap"
+  ],
+  "min_version": "0",
+  "published": "2026-10-18"
+ },
+ "signature": "losjO7QJfqGIW+ZLu6bI8x1zzHqhy+DKdbvvqmR48O3MtjUxXFVakBiLKH5qNuWO64y56wqZub+wyYhQMLXNCA=="
+}
