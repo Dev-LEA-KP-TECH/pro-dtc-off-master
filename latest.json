@@ -1,16 +1,17 @@
 {
  "manifest": {
-  "version": "0.77",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.77.exe",
-  "sha256": "27a165517d39a2a7aa3377556aa0a829f1465ba46a0962fe692fe556b40ec2e4",
-  "size": 34272740,
+  "version": "0.78",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.78.exe",
+  "sha256": "b258ec114527fa7e666c4d8ee7ce47c1274862aa7c5f3548c13a5fb1881460e7",
+  "size": 34280052,
   "notes": [
-   "แก้ Chevrolet 6G: คำนวณ checksum GM (SUM16 + CRC16) ให้อัตโนมัติเมื่อบันทึก ไฟล์เขียนลงกล่องได้ถูกต้องแม้เครื่องมือเขียนไม่คำนวณให้",
-   "แก้ Chevrolet 6G: อ่านสถานะปิด/เปิดตามไบต์ประเภท DTC ไฟล์ที่ร้านอื่นปิดไว้แสดงเป็น OFF ถูกต้อง",
-   "Chevrolet 6G: แสดงเฉพาะรหัสที่รถคันนั้นรายงาน และเปิดคืนรหัสจากตารางโรงงานได้โดยไม่ต้องใช้ ORI"
+   "เชฟ 6G: เพิ่มการ์ด EGR FULL CUT ตัด EGR ทั้งระบบเหมือนไฟล์ร้าน (กดยืนยันก่อนเขียน คืนค่าเดิมได้)",
+   "เชฟ 6G: รหัสที่ตารางโรงงานไม่มีแต่ปิดด้วยโปรแกรมนี้ เปิดคืนจาก ORI ได้ (เดิมขึ้น error)",
+   "Toyota: ไฟล์ที่ปิดหมดทุกรหัสจะบอกรหัสซอฟต์แวร์และให้เลือก ORI",
+   "Isuzu Euro 1 ไฟล์อ่านแบบ MMC: คำนวณ checksum ให้อัตโนมัติ"
   ],
   "min_version": "0",
-  "published": "2026-10-23"
+  "published": "2026-10-24"
  },
- "signature": "f0VvkkM2vcmxB28B9dOg9JSRObBUrYgu1u9YdVwfzDGmTuLF+/H4s5ltFFn0QmjVoUqd039J0tzYlw9GGnRtCw=="
+ "signature": "4ukA/PP0WsmRo1PvDETAeevDzueq8AZa4LRkHRrn8NmLgDc8xcZa4OdY3aZ+9kAy/rotJMWn9gkClLeXZC+wCg=="
 }
