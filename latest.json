@@ -1,18 +1,19 @@
 {
  "manifest": {
-  "version": "0.78",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.78_fix.exe",
-  "sha256": "9ff45a0ba597aba0fb5e63b1eb89a4511ff3322bf198c14d874dd8d8b7f57262",
-  "size": 34280708,
+  "version": "0.80",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.80.exe",
+  "sha256": "f28ad0c7baf0caf920d8ebfcdcd505c33a443ab6ad4677f41078519a888cc1cf",
+  "size": 34293233,
   "notes": [
-   "แก้: หลังติดตั้งอัปเดตแล้ว โปรแกรมเปิดขึ้นใหม่ไม่ได้ (ขึ้นหน้าต่าง Error “Failed to load Python DLL”) — ตัวติดตั้งชุดนี้เปิดโปรแกรมได้ปกติ",
-   "เชฟ 6G: เพิ่มการ์ด EGR FULL CUT ตัด EGR ทั้งระบบเหมือนไฟล์ร้าน (กดยืนยันก่อนเขียน คืนค่าเดิมได้)",
-   "เชฟ 6G: รหัสที่ตารางโรงงานไม่มีแต่ปิดด้วยโปรแกรมนี้ เปิดคืนจาก ORI ได้ (เดิมขึ้น error)",
-   "Toyota: ไฟล์ที่ปิดหมดทุกรหัสจะบอกรหัสซอฟต์แวร์และให้เลือก ORI",
-   "Isuzu Euro 1 ไฟล์อ่านแบบ MMC: คำนวณ checksum ให้อัตโนมัติ"
+   "แก้: หลังติดตั้งอัปเดตแล้ว โปรแกรมเปิดขึ้นใหม่ไม่ได้ (ขึ้นหน้าต่าง Error “Failed to load Python DLL”) — ตั้งแต่ตัวนี้เปิดขึ้นเองได้ปกติ",
+   "ใช้ไฟล์ .exe แบบไม่ติดตั้ง: อัปเดตแล้วไฟล์นั้นกลายเป็นเวอร์ชันใหม่ด้วย (เดิมยังเป็นตัวเก่าและถูกถามให้อัปเดตซ้ำ)",
+   "Toyota Revo 2020+: เพิ่มการ์ด EGR FULL CUT ตัด EGR ทั้งระบบแบบไฟล์ EGR Off (ตัดเส้นปรับ EGR 3 เส้น + ปิดรหัส EGR 8 รหัส กดยืนยันก่อนเขียน คืนค่าเดิมได้)",
+   "Isuzu 6UZ1: ปิด DTC ตรงกับไฟล์เครื่องมือทุกไบต์ (ล้างไบต์สถานะของแถวด้วย) และเปิดคืนจาก ORI ได้ครบ",
+   "Isuzu ทุกรุ่น: ไม่รับ ORI ที่เป็นเลขซอฟต์แวร์อื่น เพื่อไม่ให้เปิดรหัสคืนด้วยค่าของอีกซอฟต์แวร์",
+   "Toyota: เลือก ORI ได้เฉพาะก่อนแก้ไข เพื่อไม่ให้การแก้ไขที่ทำไว้หายโดยไม่รู้ตัว"
   ],
   "min_version": "0",
   "published": "2026-10-27"
  },
- "signature": "Iz7oGY/sC55SnShWo3zCaw7gszSG8rmSZuM7xdvPOfI/ewk0b3GKxuczdGuYLhLUSUNlx8n/ckVyZwMQrzK+BQ=="
+ "signature": "f0DlNx39jlt1OWJi2Eyd6/sPdkh3/X8IMYGm0B/r52MZ6bZ68XaZxpQvmxoYDl4dPZ5LCarg3ce2ypQ+JMgbBA=="
 }
