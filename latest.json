@@ -1,19 +1,17 @@
 {
  "manifest": {
-  "version": "0.80",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.80.exe",
-  "sha256": "f28ad0c7baf0caf920d8ebfcdcd505c33a443ab6ad4677f41078519a888cc1cf",
-  "size": 34293233,
+  "version": "0.82",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.82.exe",
+  "sha256": "06c9f1a04941e513b91f5dd9e9f2ddcee73781472d46e842445cbb1046ca0d69",
+  "size": 39102997,
   "notes": [
-   "แก้: หลังติดตั้งอัปเดตแล้ว โปรแกรมเปิดขึ้นใหม่ไม่ได้ (ขึ้นหน้าต่าง Error “Failed to load Python DLL”) — ตั้งแต่ตัวนี้เปิดขึ้นเองได้ปกติ",
-   "ใช้ไฟล์ .exe แบบไม่ติดตั้ง: อัปเดตแล้วไฟล์นั้นกลายเป็นเวอร์ชันใหม่ด้วย (เดิมยังเป็นตัวเก่าและถูกถามให้อัปเดตซ้ำ)",
-   "Toyota Revo 2020+: เพิ่มการ์ด EGR FULL CUT ตัด EGR ทั้งระบบแบบไฟล์ EGR Off (ตัดเส้นปรับ EGR 3 เส้น + ปิดรหัส EGR 8 รหัส กดยืนยันก่อนเขียน คืนค่าเดิมได้)",
-   "Isuzu 6UZ1: ปิด DTC ตรงกับไฟล์เครื่องมือทุกไบต์ (ล้างไบต์สถานะของแถวด้วย) และเปิดคืนจาก ORI ได้ครบ",
-   "Isuzu ทุกรุ่น: ไม่รับ ORI ที่เป็นเลขซอฟต์แวร์อื่น เพื่อไม่ให้เปิดรหัสคืนด้วยค่าของอีกซอฟต์แวร์",
-   "Toyota: เลือก ORI ได้เฉพาะก่อนแก้ไข เพื่อไม่ให้การแก้ไขที่ทำไว้หายโดยไม่รู้ตัว"
+   "ระบบ License: ตั้งแต่เวอร์ชันนี้ต้องใส่ License key เพื่อเปิดใช้งาน (ขอคีย์ได้ที่ LINE @proremap) ใส่ครั้งเดียวต่อเครื่อง",
+   "ข้อมูลโปรไฟล์และคำอธิบายรหัสเข้ารหัสไว้ ปลดล็อกด้วยคีย์ที่เปิดใช้งานแล้วเท่านั้น",
+   "Ford SID208 / SID209 / SID212 และ Mitsubishi: ไม่รับ ORI ที่เป็นเลขซอฟต์แวร์อื่น เพื่อไม่ให้เปิดรหัสคืนด้วยค่าของอีกซอฟต์แวร์ (บอกเลขที่พบในข้อความ)",
+   "แก้: เลือก ORI ของ Ford SID209 บางไฟล์แล้วโปรแกรมปิดตัวเอง"
   ],
   "min_version": "0",
-  "published": "2026-10-27"
+  "published": "2026-10-29"
  },
- "signature": "f0DlNx39jlt1OWJi2Eyd6/sPdkh3/X8IMYGm0B/r52MZ6bZ68XaZxpQvmxoYDl4dPZ5LCarg3ce2ypQ+JMgbBA=="
+ "signature": "JOkB21DVSZvG9yCh13N87XyP2fmV30udRFdA4mbv+a7o1sK/HL9XmW3aXtG68cYLKxOT0NqL0fBqPVXheEgzDw=="
 }
