@@ -1,17 +1,18 @@
 {
  "manifest": {
-  "version": "0.82",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.82.exe",
-  "sha256": "06c9f1a04941e513b91f5dd9e9f2ddcee73781472d46e842445cbb1046ca0d69",
-  "size": 39102997,
+  "version": "0.83",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.83.exe",
+  "sha256": "128f73b444ee11ea381f927fa348e1cebc3c47c7a43dc3c11ba614564e2b2910",
+  "size": 39127828,
   "notes": [
-   "ระบบ License: ตั้งแต่เวอร์ชันนี้ต้องใส่ License key เพื่อเปิดใช้งาน (ขอคีย์ได้ที่ LINE @proremap) ใส่ครั้งเดียวต่อเครื่อง",
-   "ข้อมูลโปรไฟล์และคำอธิบายรหัสเข้ารหัสไว้ ปลดล็อกด้วยคีย์ที่เปิดใช้งานแล้วเท่านั้น",
-   "Ford SID208 / SID209 / SID212 และ Mitsubishi: ไม่รับ ORI ที่เป็นเลขซอฟต์แวร์อื่น เพื่อไม่ให้เปิดรหัสคืนด้วยค่าของอีกซอฟต์แวร์ (บอกเลขที่พบในข้อความ)",
-   "แก้: เลือก ORI ของ Ford SID209 บางไฟล์แล้วโปรแกรมปิดตัวเอง"
+   "ใหม่: ปุ่มโปรไฟล์มุมขวาบน กดดูข้อมูล License วันคงเหลือ วันหมดอายุ และสถานะเครื่องได้ในหน้าเดียว",
+   "ใหม่: สถิติการใช้งาน ดูจำนวนไฟล์ที่ทำ รหัสที่ปิด ยี่ห้อและกล่อง ECU ที่ทำบ่อย ย้อนหลัง 7 / 30 วัน และส่งออกเป็น Excel ได้ (นับเฉพาะไฟล์ที่บันทึกในเครื่องนี้ ไม่ส่งออกไปไหน)",
+   "ใหม่: ต่ออายุ เชื่อม LINE รับแจ้งเตือน และขอย้ายเครื่อง กดแล้วเปิดแชท LINE @proremap พร้อมข้อความและคีย์ให้ทันที",
+   "ใหม่: ใส่ชื่อร้านและช่องทางติดต่อของตัวเองได้ และเตือนในโปรแกรมเมื่อ License เหลือไม่ถึง 7 วัน (ปิดได้)",
+   "ย้ายข้อมูลสิทธิ์จากท้ายหน้าจอเข้าไปไว้ในหน้าโปรไฟล์"
   ],
   "min_version": "0",
-  "published": "2026-10-29"
+  "published": "2026-10-30"
  },
- "signature": "JOkB21DVSZvG9yCh13N87XyP2fmV30udRFdA4mbv+a7o1sK/HL9XmW3aXtG68cYLKxOT0NqL0fBqPVXheEgzDw=="
+ "signature": "n5b1uRak2xXP86jcj9M/+rXY16ZyyqbenqtVq3Ax0V5W/RZju2d4PEskr+4QcnODrxJBwGQ+QjQQiSAadv9nBQ=="
 }
