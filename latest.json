@@ -1,17 +1,18 @@
 {
  "manifest": {
-  "version": "0.85",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.85.exe",
-  "sha256": "6a6fc3ad447037c536b7ca200be7c878d3a0b50ecc107ed65f1f9231dccf0fd8",
-  "size": 39399863,
+  "version": "0.86",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.86.exe",
+  "sha256": "0ea3f6a3bcd865ef41379aa08aea21f41954af2e017d9521f5319b1cd4bef355",
+  "size": 39452313,
   "notes": [
-   "ใหม่: ปุ่ม \"ค้นหาไฟล์ที่ร้านต้องการ\" (หน้าแรก และเมนู เครื่องมือ) ค้นไฟล์ ECU ในเครื่องที่โปรแกรมยังเปิดไม่ได้ แล้วรวมเป็นโฟลเดอร์ + ZIP บนเดสก์ท็อป ส่งให้ร้านช่วยเพิ่มรุ่นที่รองรับ (อ่านอย่างเดียว ไม่ส่งข้อมูลออกเอง)",
-   "รองรับ Chevrolet Colorado / Trailblazer Bosch EDC16C39 (1037513351) ไฟล์จูนเปิดและปิด DTC ได้แล้ว",
-   "Ford SID209: เปิดไฟล์ BGH และไฟล์ที่ถูกปิด DTC ไปเกือบหมดหรือทั้งหมด (AGM, FAB, AGH, AGF) ได้",
-   "แก้ Ford SID209: \"ปิดทั้งหมด\" ไม่เขียนทับแถวท้ายตาราง (P0064) ที่ไม่ใช่รหัส DTC แล้ว"
+   "ใหม่: รองรับ Nissan เบนซิน (กล่อง Hitachi เช่น Almera, March, Note, Sylphy, Teana, Juke) โปรแกรมหาตาราง DTC จากโครงสร้างไฟล์เอง ปิด DTC ได้ตรงกับไฟล์ปิด DTC ของร้านทุกไบต์ • แถวที่ปิดมาแล้วให้เลือก ORI ของซอฟต์แวร์เดียวกันเพื่อดูรหัสและเปิดคืน",
+   "Toyota: เปิดไฟล์จูนที่ถูกเขียนลายน้ำ \"ENGINEERREMEP\" ทับชื่อกล่องได้แล้ว",
+   "Ford SID209: ปุ่ม \"ซ่อมค่าท้ายตาราง Ford SID209\" ซ่อม 3 ค่าท้ายตารางที่ \"ปิดทั้งหมด\" ของรุ่น 0.84 เขียนทับ • ไฟล์ที่หาตาราง DTC ไม่ได้มีคำแนะนำภาษาไทย",
+   "Ford Ranger / Everest Next Gen (MB3G BKC): เปิดได้แล้ว",
+   "เพิ่มคำอธิบายรหัส DTC มาตรฐาน 222 รหัส (อังกฤษ + ไทย)"
   ],
   "min_version": "0",
   "published": "2026-11-03"
  },
- "signature": "VFSqFiChlDywT0Jn9g4R1xg6b3BoRyGR0/qU+VOt77ykdQln7DJQX3ZPudA9yACCXO3KEvrr3hFY3WTgM35lDQ=="
+ "signature": "7KAi9LJja3MylmTd9AkKTHau+IiQ7LUo3msCYmx7iNJMemVBtg4tw+3H8DxmHNwj89b7Gyt/dwm3OagRaDUGBQ=="
 }
