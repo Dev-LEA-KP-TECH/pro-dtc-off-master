@@ -1,18 +1,17 @@
 {
  "manifest": {
-  "version": "0.86",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.86.exe",
-  "sha256": "0ea3f6a3bcd865ef41379aa08aea21f41954af2e017d9521f5319b1cd4bef355",
-  "size": 39452313,
+  "version": "0.87",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.87.exe",
+  "sha256": "ac9750e4687293cc2007646a91d4494d60cb4488b1c7cd92fe8dc616f4d87bb1",
+  "size": 39474727,
   "notes": [
-   "ใหม่: รองรับ Nissan เบนซิน (กล่อง Hitachi เช่น Almera, March, Note, Sylphy, Teana, Juke) โปรแกรมหาตาราง DTC จากโครงสร้างไฟล์เอง ปิด DTC ได้ตรงกับไฟล์ปิด DTC ของร้านทุกไบต์ • แถวที่ปิดมาแล้วให้เลือก ORI ของซอฟต์แวร์เดียวกันเพื่อดูรหัสและเปิดคืน",
-   "Toyota: เปิดไฟล์จูนที่ถูกเขียนลายน้ำ \"ENGINEERREMEP\" ทับชื่อกล่องได้แล้ว",
-   "Ford SID209: ปุ่ม \"ซ่อมค่าท้ายตาราง Ford SID209\" ซ่อม 3 ค่าท้ายตารางที่ \"ปิดทั้งหมด\" ของรุ่น 0.84 เขียนทับ • ไฟล์ที่หาตาราง DTC ไม่ได้มีคำแนะนำภาษาไทย",
-   "Ford Ranger / Everest Next Gen (MB3G BKC): เปิดได้แล้ว",
-   "เพิ่มคำอธิบายรหัส DTC มาตรฐาน 222 รหัส (อังกฤษ + ไทย)"
+   "ใหม่: Hino A09C 344 แรง \"3 ปลั๊ก\" (Bosch EDC7UC31 ไฟล์ EDC16_MPC562 2 MB) และ \"2 ปลั๊ก\" Victor (Bosch EDC17CV41 TC1797 4 MB ซอฟต์แวร์ 1037507426) โปรแกรมหาตาราง DTC จากโครงสร้างไฟล์เอง ไฟล์จูนก็เปิดได้ • ปิด DTC แบบเดียวกับไฟล์ปิด DTC ของร้าน",
+   "แถวที่ปิดมาแล้วให้เลือก ORI ของซอฟต์แวร์และชุดข้อมูลเดียวกันเพื่อดูรหัสและเปิดคืน • โปรแกรมไม่แก้ checksum ของ Hino ให้เขียนด้วยเครื่องมือที่คำนวณ checksum อัตโนมัติ",
+   "Hino 2 ปลั๊ก ซอฟต์แวร์ 1037515077 เปิดได้ (ไฟล์ที่ปิด DTC มาแล้วแสดงทุกรหัสเป็นปิด เปิดคืนต้องใช้ ORI โรงงาน)",
+   "เพิ่มคำอธิบายรหัส DTC มาตรฐาน 40 รหัส (อังกฤษ + ไทย)"
   ],
   "min_version": "0",
-  "published": "2026-11-03"
+  "published": "2026-11-04"
  },
- "signature": "7KAi9LJja3MylmTd9AkKTHau+IiQ7LUo3msCYmx7iNJMemVBtg4tw+3H8DxmHNwj89b7Gyt/dwm3OagRaDUGBQ=="
+ "signature": "NigTD1CXJjgGjCHUDMT5o+cqUlZRJWwEJ/QwoaNz4O017rLfw6xxadmsSPUAnT7TU4cuX8U1/z/l6ffCCgLoCw=="
 }
