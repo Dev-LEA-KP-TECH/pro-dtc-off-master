@@ -1,19 +1,17 @@
 {
  "manifest": {
-  "version": "0.84",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.84.exe",
-  "sha256": "1eb201a96696734e739eddb29126c5a9a257b4a3a314e90d7d2027b49830f8b1",
-  "size": 39154636,
+  "version": "0.85",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.85.exe",
+  "sha256": "6a6fc3ad447037c536b7ca200be7c878d3a0b50ecc107ed65f1f9231dccf0fd8",
+  "size": 39399863,
   "notes": [
-   "ใหม่: ต่ออายุ License ด้วย QR พร้อมเพย์ในโปรแกรม (หน้าโปรไฟล์ > ต่ออายุ) ยอดล็อกตามแพ็กเกจ ส่งสลิปทาง LINE แล้ววันจะอัปเดตเองเมื่อร้านยืนยัน",
-   "คีย์หมดอายุ: หน้าใส่คีย์มีปุ่มต่ออายุด้วย QR พร้อมเพย์",
-   "รองรับกล่อง Delphi DCM3.7 (Chevrolet / GM 2 MB) ปิด DTC ได้",
-   "LINE ร้านเปลี่ยนเป็น @057pkomh",
-   "บันทึกไฟล์ไม่ได้เพราะดิสก์เต็ม / ไฟล์ถูกเปิดอยู่: แจ้งเป็นภาษาไทยพร้อมวิธีแก้",
-   "ล้างไฟล์ชั่วคราวของโปรแกรมที่ค้างในเครื่องอัตโนมัติ"
+   "ใหม่: ปุ่ม \"ค้นหาไฟล์ที่ร้านต้องการ\" (หน้าแรก และเมนู เครื่องมือ) ค้นไฟล์ ECU ในเครื่องที่โปรแกรมยังเปิดไม่ได้ แล้วรวมเป็นโฟลเดอร์ + ZIP บนเดสก์ท็อป ส่งให้ร้านช่วยเพิ่มรุ่นที่รองรับ (อ่านอย่างเดียว ไม่ส่งข้อมูลออกเอง)",
+   "รองรับ Chevrolet Colorado / Trailblazer Bosch EDC16C39 (1037513351) ไฟล์จูนเปิดและปิด DTC ได้แล้ว",
+   "Ford SID209: เปิดไฟล์ BGH และไฟล์ที่ถูกปิด DTC ไปเกือบหมดหรือทั้งหมด (AGM, FAB, AGH, AGF) ได้",
+   "แก้ Ford SID209: \"ปิดทั้งหมด\" ไม่เขียนทับแถวท้ายตาราง (P0064) ที่ไม่ใช่รหัส DTC แล้ว"
   ],
   "min_version": "0",
-  "published": "2026-10-31"
+  "published": "2026-11-03"
  },
- "signature": "522vUn3AFRaJHNxwmFd03IierJbaMj8gJv2eidpRR/0V6Q3rtymVukEPkVAVjFTu3SM5c53rQJr34ShaQ6s6DA=="
+ "signature": "VFSqFiChlDywT0Jn9g4R1xg6b3BoRyGR0/qU+VOt77ykdQln7DJQX3ZPudA9yACCXO3KEvrr3hFY3WTgM35lDQ=="
 }
