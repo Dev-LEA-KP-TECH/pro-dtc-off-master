@@ -1,17 +1,17 @@
 {
  "manifest": {
-  "version": "0.87",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.87.exe",
-  "sha256": "ac9750e4687293cc2007646a91d4494d60cb4488b1c7cd92fe8dc616f4d87bb1",
-  "size": 39474727,
+  "version": "0.89",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.89.exe",
+  "sha256": "fbf4f9e37c5851557afda1112c466fb13f353bc54317441727bc547ffd71363d",
+  "size": 39514715,
   "notes": [
-   "ใหม่: Hino A09C 344 แรง \"3 ปลั๊ก\" (Bosch EDC7UC31 ไฟล์ EDC16_MPC562 2 MB) และ \"2 ปลั๊ก\" Victor (Bosch EDC17CV41 TC1797 4 MB ซอฟต์แวร์ 1037507426) โปรแกรมหาตาราง DTC จากโครงสร้างไฟล์เอง ไฟล์จูนก็เปิดได้ • ปิด DTC แบบเดียวกับไฟล์ปิด DTC ของร้าน",
-   "แถวที่ปิดมาแล้วให้เลือก ORI ของซอฟต์แวร์และชุดข้อมูลเดียวกันเพื่อดูรหัสและเปิดคืน • โปรแกรมไม่แก้ checksum ของ Hino ให้เขียนด้วยเครื่องมือที่คำนวณ checksum อัตโนมัติ",
-   "Hino 2 ปลั๊ก ซอฟต์แวร์ 1037515077 เปิดได้ (ไฟล์ที่ปิด DTC มาแล้วแสดงทุกรหัสเป็นปิด เปิดคืนต้องใช้ ORI โรงงาน)",
-   "เพิ่มคำอธิบายรหัส DTC มาตรฐาน 40 รหัส (อังกฤษ + ไทย)"
+   "ใหม่: Mazda เบนซิน SkyActiv-G / MZR กล่อง Denso (Mazda2 / Mazda3 / CX-3 / CX-5 เบนซิน) และ Nissan ดีเซล Denso (NP300 / Navara / Urvan 1.5 MB และ Navara D40 1 MB) โปรแกรมหาตาราง DTC จากโครงสร้างไฟล์เอง ไฟล์จูนก็เปิดได้ • ปิด DTC แบบเดียวกับไฟล์ที่ร้านปิดเอง (ตรงทุกไบต์) • รหัส Mazda ที่ใช้ค่าร่วมกัน (เช่น P0300–P0304) หรือค่าอยู่ใน RAM แสดงแต่ล็อกไว้พร้อมเหตุผล",
+   "ใหม่: Mazda SkyActiv-D ดีเซล (CX-5 2.2, CX-3 / Mazda2 1.5 ดีเซล ไฟล์แบบ PCM และ Kess) • ไฟล์ Mazda ที่ยังเปิดไม่ได้มีข้อความบอกเหตุผล",
+   "ใหม่ (เปิดดูอย่างเดียว): Bosch EDC16 รุ่นอื่น เช่น Peugeot / Citroen 1.6 HDi (EDC16C34) และ Chevrolet Captiva (EDC16C39) แสดงรหัสและแถวที่ปิดอยู่ ยังแก้ไม่ได้จนกว่าจะมีคู่ไฟล์ยืนยัน",
+   "เปิดคืนต้องใช้ ORI ซอฟต์แวร์เดียวกัน • โปรแกรมไม่แก้ checksum ของรุ่นใหม่เหล่านี้ ให้เขียนด้วยเครื่องมือที่คำนวณ checksum อัตโนมัติ • เพิ่มคำอธิบายรหัส DTC มาตรฐาน 72 รหัส"
   ],
   "min_version": "0",
   "published": "2026-11-04"
  },
- "signature": "NigTD1CXJjgGjCHUDMT5o+cqUlZRJWwEJ/QwoaNz4O017rLfw6xxadmsSPUAnT7TU4cuX8U1/z/l6ffCCgLoCw=="
+ "signature": "UcfCyDvorgw5c6VDtMAcAAqYWS3YjpYLiORygF2HsB7VFXUgGyxtaFT0d6Ts06ParTdnkWwbOc2spk3GrMD5CA=="
 }
