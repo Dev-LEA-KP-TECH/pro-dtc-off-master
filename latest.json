@@ -1,17 +1,17 @@
 {
  "manifest": {
-  "version": "0.89",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.89.exe",
-  "sha256": "fbf4f9e37c5851557afda1112c466fb13f353bc54317441727bc547ffd71363d",
-  "size": 39514715,
+  "version": "0.90",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.90.exe",
+  "sha256": "1a9d747fbe34f8908ba51b27e7b022582cee675d88e2f7456666023d95be111b",
+  "size": 39523694,
   "notes": [
-   "ใหม่: Mazda เบนซิน SkyActiv-G / MZR กล่อง Denso (Mazda2 / Mazda3 / CX-3 / CX-5 เบนซิน) และ Nissan ดีเซล Denso (NP300 / Navara / Urvan 1.5 MB และ Navara D40 1 MB) โปรแกรมหาตาราง DTC จากโครงสร้างไฟล์เอง ไฟล์จูนก็เปิดได้ • ปิด DTC แบบเดียวกับไฟล์ที่ร้านปิดเอง (ตรงทุกไบต์) • รหัส Mazda ที่ใช้ค่าร่วมกัน (เช่น P0300–P0304) หรือค่าอยู่ใน RAM แสดงแต่ล็อกไว้พร้อมเหตุผล",
-   "ใหม่: Mazda SkyActiv-D ดีเซล (CX-5 2.2, CX-3 / Mazda2 1.5 ดีเซล ไฟล์แบบ PCM และ Kess) • ไฟล์ Mazda ที่ยังเปิดไม่ได้มีข้อความบอกเหตุผล",
-   "ใหม่ (เปิดดูอย่างเดียว): Bosch EDC16 รุ่นอื่น เช่น Peugeot / Citroen 1.6 HDi (EDC16C34) และ Chevrolet Captiva (EDC16C39) แสดงรหัสและแถวที่ปิดอยู่ ยังแก้ไม่ได้จนกว่าจะมีคู่ไฟล์ยืนยัน",
-   "เปิดคืนต้องใช้ ORI ซอฟต์แวร์เดียวกัน • โปรแกรมไม่แก้ checksum ของรุ่นใหม่เหล่านี้ ให้เขียนด้วยเครื่องมือที่คำนวณ checksum อัตโนมัติ • เพิ่มคำอธิบายรหัส DTC มาตรฐาน 72 รหัส"
+   "ใหม่: Mitsubishi Triton / Pajero Sport 2.4 (4N15) กล่อง Denso ไฟล์ 1.5 MB ซอฟต์แวร์ \"45W\" (เช่น 1860D26301, 1860D15701, 1860D36901) โปรแกรมหาตาราง DTC จากโครงสร้างไฟล์เอง ไฟล์จูนก็เปิดได้ • ปิด DTC แบบเดียวกับไฟล์ที่ร้านปิดเอง (ตรงทุกไบต์ในตาราง DTC) • แถวที่ปิดมาจากโรงงานแสดงว่าปิดจากโรงงาน • ซอฟต์แวร์ H1A (1860C98001) เปิดดูได้อย่างเดียวจนกว่าจะมีคู่ไฟล์ยืนยัน",
+   "ใหม่: Toyota Vios / Yaris 2NR-FE (89663-0DU00) ที่เก็บรายการ DTC ไว้ 2 ช่วง เปิดได้แล้ว • ปิดแบบเดียวกับไฟล์ Cat Off ของร้าน (ตรงทุกไบต์)",
+   "ค้นหาไฟล์ที่ร้านต้องการ: ไดรฟ์ที่ไม่ตอบเกิน 10 วินาทีจะถูกข้ามแล้วค้นหาไดรฟ์อื่นต่อ (เดิมรอค้าง) • ปุ่มหยุดค้นหาไม่ต้องรอไดรฟ์ที่ค้าง • ไฟล์ที่คัดลอกไม่ได้เพราะไดรฟ์ไม่ตอบจะแจ้งในรายการ",
+   "เปิดคืนต้องใช้ ORI ซอฟต์แวร์เดียวกัน • โปรแกรมไม่แก้ checksum ของรุ่นใหม่เหล่านี้ ให้เขียนด้วยเครื่องมือที่คำนวณ checksum อัตโนมัติ"
   ],
   "min_version": "0",
-  "published": "2026-11-04"
+  "published": "2026-11-05"
  },
- "signature": "UcfCyDvorgw5c6VDtMAcAAqYWS3YjpYLiORygF2HsB7VFXUgGyxtaFT0d6Ts06ParTdnkWwbOc2spk3GrMD5CA=="
+ "signature": "4NqatGkM1iC6rckBXy1D6ZJtNi7k8CjqMSVfXlwSMRhnYaLV07vzcysYeEF39uAQm5VUjNYK3CJAMLBJuOvdCA=="
 }
