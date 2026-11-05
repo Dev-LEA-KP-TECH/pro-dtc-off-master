@@ -1,16 +1,16 @@
 {
  "manifest": {
-  "version": "0.91",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.91.exe",
-  "sha256": "8e4f7427116b6ce23565925d968321fcbcb69ead8df02c22ebefd448b3adee11",
-  "size": 39529627,
+  "version": "0.92",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.92.exe",
+  "sha256": "e290ec99f735f5b0b5668e1089aafd65afc04994a3d04cc3ce571f2557834098",
+  "size": 40604589,
   "notes": [
-   "หน้าโปรแกรมพอดีกับหน้าต่างทุกขนาด: ไม่มีแถบเลื่อนด้านข้าง และหมุนลูกกลิ้งเมาส์แล้วหน้าโปรแกรมไม่ขยับ (เลื่อนได้เฉพาะรายการ DTC)",
-   "แผงเครื่องมือด้านขวาพอดีความสูงหน้าต่าง ปุ่ม “บันทึกไฟล์ .BIN” อยู่ในหน้าจอเสมอ • หน้าแรกแสดงไฟล์ล่าสุดและวิธีใช้งานเท่าที่พอดี • หน้าต่างเตี้ยแสดงการ์ดตัวเลขบรรทัดเดียว",
-   "รวมทุกอย่างของ 0.90: Mitsubishi 1.5 MB \"45W\", Toyota 2NR-FE (89663-0DU00), ค้นหาไฟล์ข้ามไดรฟ์ที่ไม่ตอบเกิน 10 วินาที"
+   "Toyota (กล่อง Denso V850) ไฟล์ที่ถูกปิด DTC มาก่อนด้วยเครื่องมืออื่น: แสดงรหัสครบตามรายการของซอฟต์แวร์นั้นที่ตรวจจากไฟล์ของร้าน รหัสที่ถูกปิดไปแล้วขึ้นเป็น OFF และเปิดคืนได้โดยไม่ต้องใช้ ORI",
+   "เลือก ORI ของ Toyota ที่ขนาดไฟล์ต่างกันได้ (512 / 496 / 368 KB) เมื่อเป็นซอฟต์แวร์เดียวกัน • ไฟล์ที่เหลือรหัสน้อยและยังไม่มีในรายการจะมีข้อความบอกให้เลือก ORI",
+   "รวมทุกอย่างของ 0.91: หน้าโปรแกรมพอดีกับหน้าต่างทุกขนาด ไม่มีแถบเลื่อนด้านข้าง"
   ],
   "min_version": "0",
-  "published": "2026-11-05"
+  "published": "2026-11-06"
  },
- "signature": "dq7re2TRnJFtE25TjgScNTrnfml8Qp8p1Zt1wO7sN3VO4I6JPFv2gN8mz/R3V3YxxJsd8xJVO7Wco/JdpPuxDw=="
+ "signature": "X3JGt/+5Ta3KCkzMYxPOCTKwBJ5d7M2eXs+U/qHrI1JeTUU1fAXItHA45ovxIyjxQqodQwRuCr+rX0E0KbppCg=="
 }
