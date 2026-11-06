@@ -1,16 +1,16 @@
 {
  "manifest": {
-  "version": "0.92",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.92.exe",
-  "sha256": "e290ec99f735f5b0b5668e1089aafd65afc04994a3d04cc3ce571f2557834098",
-  "size": 40604589,
+  "version": "0.93",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.93.exe",
+  "sha256": "9257b0e832a7686996ff14af26978ab935fb67c598490f00e6a29d8e971c36ee",
+  "size": 41186623,
   "notes": [
-   "Toyota (กล่อง Denso V850) ไฟล์ที่ถูกปิด DTC มาก่อนด้วยเครื่องมืออื่น: แสดงรหัสครบตามรายการของซอฟต์แวร์นั้นที่ตรวจจากไฟล์ของร้าน รหัสที่ถูกปิดไปแล้วขึ้นเป็น OFF และเปิดคืนได้โดยไม่ต้องใช้ ORI",
-   "เลือก ORI ของ Toyota ที่ขนาดไฟล์ต่างกันได้ (512 / 496 / 368 KB) เมื่อเป็นซอฟต์แวร์เดียวกัน • ไฟล์ที่เหลือรหัสน้อยและยังไม่มีในรายการจะมีข้อความบอกให้เลือก ORI",
-   "รวมทุกอย่างของ 0.91: หน้าโปรแกรมพอดีกับหน้าต่างทุกขนาด ไม่มีแถบเลื่อนด้านข้าง"
+   "ใหม่: เปลี่ยนภาษาของโปรแกรมได้ 15 ภาษา (ไทย อังกฤษ อิตาลี รัสเซีย เยอรมัน สเปน ญี่ปุ่น อาหรับ จีน เวียดนาม อินโดนีเซีย มาเลย์ พม่า ลาว เขมร) กดปุ่มธงบนแถบชื่อโปรแกรมแล้วเลือกภาษา มีผลทันทีและจำไว้ในเครื่องนี้",
+   "ภาษาอาหรับแสดงจากขวาไปซ้าย • คำอธิบายรหัส DTC เป็นภาษาอังกฤษในทุกภาษาที่ไม่ใช่ไทย",
+   "การปิด / เปิด DTC การแก้ checksum และไฟล์ที่บันทึกเหมือน 0.92 ทุกอย่าง"
   ],
   "min_version": "0",
   "published": "2026-11-06"
  },
- "signature": "X3JGt/+5Ta3KCkzMYxPOCTKwBJ5d7M2eXs+U/qHrI1JeTUU1fAXItHA45ovxIyjxQqodQwRuCr+rX0E0KbppCg=="
+ "signature": "i/wuGRN9G23CW8+Nr7Fewg2bejAgBmBtZVeqBdzB/bXNzSGu4jsolP8F7F2Wscefm8/PVPimIv36i33I+JS9CA=="
 }
