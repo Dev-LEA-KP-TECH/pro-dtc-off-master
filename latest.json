@@ -1,16 +1,16 @@
 {
  "manifest": {
-  "version": "0.93",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.93.exe",
-  "sha256": "9257b0e832a7686996ff14af26978ab935fb67c598490f00e6a29d8e971c36ee",
-  "size": 41186623,
+  "version": "0.94",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.94.exe",
+  "sha256": "ac6552bfb07eb62be1028e44f09f0289824a4fc69de3abf58ef03b9a55b4833b",
+  "size": 41202397,
   "notes": [
-   "ใหม่: เปลี่ยนภาษาของโปรแกรมได้ 15 ภาษา (ไทย อังกฤษ อิตาลี รัสเซีย เยอรมัน สเปน ญี่ปุ่น อาหรับ จีน เวียดนาม อินโดนีเซีย มาเลย์ พม่า ลาว เขมร) กดปุ่มธงบนแถบชื่อโปรแกรมแล้วเลือกภาษา มีผลทันทีและจำไว้ในเครื่องนี้",
-   "ภาษาอาหรับแสดงจากขวาไปซ้าย • คำอธิบายรหัส DTC เป็นภาษาอังกฤษในทุกภาษาที่ไม่ใช่ไทย",
-   "การปิด / เปิด DTC การแก้ checksum และไฟล์ที่บันทึกเหมือน 0.92 ทุกอย่าง"
+   "ใหม่: EGR FULL CUT สำหรับ Toyota Revo / Fortuner 2015–2020 และ Prado 2.8 (กล่อง Denso V850) เลือกได้ \"ตัด 3 เส้น\" แบบไฟล์ EGR Off หรือ \"ตัดเพิ่ม\" แบบโปรเจกต์ร้าน • Revo 2020+ เพิ่มอีก 15 ซอฟต์แวร์",
+   "แก้บัค: หน้าต่ออายุ License แพ็กเกจถูกตัดจนอ่านไม่ออก • โปรแกรมปิดตัวเองหลังตอบคำถาม EGR แล้วเปลี่ยนภาษา และบางครั้งหลังตรวจ License • ข้อความถูกตัดในภาษาอื่น",
+   "การปิด / เปิด DTC และ checksum เหมือน 0.93 ทุกอย่าง • ตรวจจากไฟล์ของร้าน ยังไม่ได้ทดสอบบนรถจริง"
   ],
   "min_version": "0",
-  "published": "2026-11-06"
+  "published": "2026-11-07"
  },
- "signature": "i/wuGRN9G23CW8+Nr7Fewg2bejAgBmBtZVeqBdzB/bXNzSGu4jsolP8F7F2Wscefm8/PVPimIv36i33I+JS9CA=="
+ "signature": "Zz//W+abPDjMX9O6bzXEke5xRxydB1kvH/ofRWd/RedjHhvKtKRWXs6BmyS8jT7koK7D2ODe0XQSG134Ypu+Cg=="
 }
