@@ -1,16 +1,16 @@
 {
  "manifest": {
-  "version": "0.94",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.94.exe",
-  "sha256": "ac6552bfb07eb62be1028e44f09f0289824a4fc69de3abf58ef03b9a55b4833b",
-  "size": 41202397,
+  "version": "0.95",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.95.exe",
+  "sha256": "9ee705b31ffd5580d1f4e6cf3d30f5dfbd5ea087afadf563e2d9f920a5c5d3bc",
+  "size": 41207625,
   "notes": [
-   "ใหม่: EGR FULL CUT สำหรับ Toyota Revo / Fortuner 2015–2020 และ Prado 2.8 (กล่อง Denso V850) เลือกได้ \"ตัด 3 เส้น\" แบบไฟล์ EGR Off หรือ \"ตัดเพิ่ม\" แบบโปรเจกต์ร้าน • Revo 2020+ เพิ่มอีก 15 ซอฟต์แวร์",
-   "แก้บัค: หน้าต่ออายุ License แพ็กเกจถูกตัดจนอ่านไม่ออก • โปรแกรมปิดตัวเองหลังตอบคำถาม EGR แล้วเปลี่ยนภาษา และบางครั้งหลังตรวจ License • ข้อความถูกตัดในภาษาอื่น",
-   "การปิด / เปิด DTC และ checksum เหมือน 0.93 ทุกอย่าง • ตรวจจากไฟล์ของร้าน ยังไม่ได้ทดสอบบนรถจริง"
+   "แก้หน้าต่าง \"โปรไฟล์ของฉัน\" แสดงไม่เต็ม: การ์ดด้านขวาถูกตัดเมื่อมีชื่อไฟล์ที่บันทึกยาว ๆ • ตอนนี้จัดการ์ดเองตามขนาดหน้าต่าง เห็นครบทุกภาษา",
+   "หน้าต่างโปรไฟล์ใหญ่ขึ้นบนจอใหญ่ • ชื่อไฟล์ยาวตัดบรรทัดได้ และลงท้าย \"…\" ที่หัวโปรแกรม",
+   "การปิด / เปิด DTC และ EGR FULL CUT เหมือน 0.94 ทุกอย่าง"
   ],
   "min_version": "0",
   "published": "2026-11-07"
  },
- "signature": "Zz//W+abPDjMX9O6bzXEke5xRxydB1kvH/ofRWd/RedjHhvKtKRWXs6BmyS8jT7koK7D2ODe0XQSG134Ypu+Cg=="
+ "signature": "EntSxdESnw6ebpLFz0JAqOWbiYO62oXttyAMmv9hCel5GCYZz+M9OYD9mcdNMEo5Y8si9wL6iaGhOqvM79i/BA=="
 }
