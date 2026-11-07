@@ -1,16 +1,16 @@
 {
  "manifest": {
-  "version": "0.95",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.95.exe",
-  "sha256": "9ee705b31ffd5580d1f4e6cf3d30f5dfbd5ea087afadf563e2d9f920a5c5d3bc",
-  "size": 41207625,
+  "version": "0.96",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.96.exe",
+  "sha256": "ee242885c8eeb6edb0fc0382142bd293590a8870c997cafa39ec5602bf3e57cc",
+  "size": 41215632,
   "notes": [
-   "แก้หน้าต่าง \"โปรไฟล์ของฉัน\" แสดงไม่เต็ม: การ์ดด้านขวาถูกตัดเมื่อมีชื่อไฟล์ที่บันทึกยาว ๆ • ตอนนี้จัดการ์ดเองตามขนาดหน้าต่าง เห็นครบทุกภาษา",
-   "หน้าต่างโปรไฟล์ใหญ่ขึ้นบนจอใหญ่ • ชื่อไฟล์ยาวตัดบรรทัดได้ และลงท้าย \"…\" ที่หัวโปรแกรม",
-   "การปิด / เปิด DTC และ EGR FULL CUT เหมือน 0.94 ทุกอย่าง"
+   "ปุ่ม LINE ทุกปุ่มเปิดแชทร้านใน LINE บนคอมให้เลย (LINE ขึ้นมาในไม่กี่วินาที) — เดิมเปิดหน้าเว็บ/QR ในเบราว์เซอร์",
+   "ข้อความที่ต้องส่ง (คีย์ / ขอต่ออายุ / ขอย้ายเครื่อง / เลขคำสั่งซื้อ) ถูกคัดลอกไว้ให้ กด Ctrl+V ในแชทแล้วส่ง • เครื่องที่ไม่มี LINE บนคอมเปิดลิงก์เว็บแบบเดิม",
+   "การปิด / เปิด DTC และ EGR FULL CUT เหมือน 0.95 ทุกอย่าง"
   ],
   "min_version": "0",
   "published": "2026-11-07"
  },
- "signature": "EntSxdESnw6ebpLFz0JAqOWbiYO62oXttyAMmv9hCel5GCYZz+M9OYD9mcdNMEo5Y8si9wL6iaGhOqvM79i/BA=="
+ "signature": "KMeAb8VtH5uomQJpbE1URzmbCXRi2e/49l0A5Nxjfav6eQ0ZEDOfvnerDfh78vyMjH64t9v3JM3mVdfGbsL2CQ=="
 }
