@@ -1,16 +1,15 @@
 {
  "manifest": {
-  "version": "0.97",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.97.exe",
-  "sha256": "b082ff1caa799ffb74f768e39450d00f402b27c1b0196638bb4ec98c0799f715",
-  "size": 41231025,
+  "version": "0.98",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.98.exe",
+  "sha256": "77be14b1b08a2158259d726bd87ab399da1f264e89196f16cf53d7c649689db3",
+  "size": 41230476,
   "notes": [
-   "ก่อนบันทึก โปรแกรมตรวจว่าไฟล์ใหม่จะเปิดกลับในโปรแกรมได้ — ถ้าเปิดไม่ได้จะถามก่อน (บันทึกต่อ / ยกเลิก) ระหว่างตรวจหน้าต่างไม่ค้าง",
-   "ไฟล์ Nissan เบนซิน และ Ford SID209 ที่เครื่องมืออื่นเคยปิดรหัสไว้บางแถว กด \"ปิดทั้งหมด\" แล้วบันทึก เปิดกลับในโปรแกรมได้แล้ว • Ford SID209 ซอฟต์แวร์ BPL ไม่เขียนทับแถวท้ายตาราง DTC อีก",
-   "ข้อความในสวิตช์แถวที่ล็อก (ไม่ระบุรหัส / อ่านอย่างเดียว) และข้อความหลังบันทึกแสดงครบทุกภาษา • การปิด / เปิด DTC และ EGR FULL CUT เหมือน 0.96"
+   "กล่องข้อความในหน้าโปรไฟล์และหน้าต่ออายุ (เช่น คัดลอกแล้ว, ผลตรวจสิทธิ์) และเมนูคลิกขวา จากพื้นดำมองไม่เห็น เป็นพื้นขาว อ่านชัด",
+   "การปิด / เปิด DTC, EGR FULL CUT และการตรวจก่อนบันทึก เหมือน 0.97"
   ],
   "min_version": "0",
-  "published": "2026-11-08"
+  "published": "2026-11-09"
  },
- "signature": "vJA6bmQgaEmje//SiXj6BJhUIzyFdJsxbV1BZOJGlVLD80nJRW05KftlrdWqGvBoSOWn7zvO6L7kNjfukqbWAw=="
+ "signature": "DX+3Vhip9DiBXu2SChkUlMWOJaT19BXgqt1aRwn5wg6O5XCcRhRWM0uIsNaojGAXfuXLtTjoAl6L8Vm+yoUZBg=="
 }
