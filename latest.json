@@ -1,16 +1,16 @@
 {
  "manifest": {
-  "version": "0.96",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.96.exe",
-  "sha256": "ee242885c8eeb6edb0fc0382142bd293590a8870c997cafa39ec5602bf3e57cc",
-  "size": 41215632,
+  "version": "0.97",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.97.exe",
+  "sha256": "b082ff1caa799ffb74f768e39450d00f402b27c1b0196638bb4ec98c0799f715",
+  "size": 41231025,
   "notes": [
-   "ปุ่ม LINE ทุกปุ่มเปิดแชทร้านใน LINE บนคอมให้เลย (LINE ขึ้นมาในไม่กี่วินาที) — เดิมเปิดหน้าเว็บ/QR ในเบราว์เซอร์",
-   "ข้อความที่ต้องส่ง (คีย์ / ขอต่ออายุ / ขอย้ายเครื่อง / เลขคำสั่งซื้อ) ถูกคัดลอกไว้ให้ กด Ctrl+V ในแชทแล้วส่ง • เครื่องที่ไม่มี LINE บนคอมเปิดลิงก์เว็บแบบเดิม",
-   "การปิด / เปิด DTC และ EGR FULL CUT เหมือน 0.95 ทุกอย่าง"
+   "ก่อนบันทึก โปรแกรมตรวจว่าไฟล์ใหม่จะเปิดกลับในโปรแกรมได้ — ถ้าเปิดไม่ได้จะถามก่อน (บันทึกต่อ / ยกเลิก) ระหว่างตรวจหน้าต่างไม่ค้าง",
+   "ไฟล์ Nissan เบนซิน และ Ford SID209 ที่เครื่องมืออื่นเคยปิดรหัสไว้บางแถว กด \"ปิดทั้งหมด\" แล้วบันทึก เปิดกลับในโปรแกรมได้แล้ว • Ford SID209 ซอฟต์แวร์ BPL ไม่เขียนทับแถวท้ายตาราง DTC อีก",
+   "ข้อความในสวิตช์แถวที่ล็อก (ไม่ระบุรหัส / อ่านอย่างเดียว) และข้อความหลังบันทึกแสดงครบทุกภาษา • การปิด / เปิด DTC และ EGR FULL CUT เหมือน 0.96"
   ],
   "min_version": "0",
-  "published": "2026-11-07"
+  "published": "2026-11-08"
  },
- "signature": "KMeAb8VtH5uomQJpbE1URzmbCXRi2e/49l0A5Nxjfav6eQ0ZEDOfvnerDfh78vyMjH64t9v3JM3mVdfGbsL2CQ=="
+ "signature": "vJA6bmQgaEmje//SiXj6BJhUIzyFdJsxbV1BZOJGlVLD80nJRW05KftlrdWqGvBoSOWn7zvO6L7kNjfukqbWAw=="
 }
