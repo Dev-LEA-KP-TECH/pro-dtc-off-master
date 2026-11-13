@@ -1,0 +1,41 @@
+{
+ "v": 1,
+ "version": "0.99",
+ "date": "2026-11-13",
+ "size": 41300819,
+ "title": "เปิดไฟล์ Ford ที่ร้านอื่นปิด DTC มาแล้วได้",
+ "alt": "อัปเดต 0.99 มาแล้ว: ไฟล์ Ford (Ranger / Everest / BT-50) ที่ร้านอื่นปิด DTC มาแล้วจนโปรแกรมหาตารางไม่เจอ ตอนนี้เลือก ORI ของรถคันนั้น แล้วโปรแกรมเปิดตาราง DTC ให้ปิดเพิ่ม / เปิดคืนได้ • เปิดโปรแกรมแล้วกด “อัปเดตเลย”",
+ "changes": [
+  {
+   "text": "ไฟล์ Ford SID208 / SID209 / SID212-213 ที่ร้านอื่นปิด DTC มาแล้วจนหาตารางไม่เจอ: ขึ้น “Ford • เลือก ORI” → เลือก ORI ของรถคันนั้น โปรแกรมตรวจทุกแถวแล้วเปิดตาราง DTC ให้ปิดเพิ่ม / เปิดคืนได้ (ORI คนละซอฟต์แวร์ หรือไฟล์ที่ปิด DTC มาแล้ว โปรแกรมไม่รับและบอกเหตุผล)",
+   "kind": "new"
+  },
+  {
+   "text": "พจนานุกรมเพิ่มรหัส DTC มาตรฐาน 120 รหัส • ข้อความยาวในแผงรายละเอียดไม่ตัดกลางคำแล้ว",
+   "kind": "new"
+  },
+  {
+   "text": "ปิด / เปิด DTC ไฟล์อื่น ๆ, EGR FULL CUT และการตรวจก่อนบันทึก เหมือนเดิมทุกอย่าง",
+   "kind": "same"
+  }
+ ],
+ "images": [
+  {
+   "file": "ford_ori.png",
+   "w": 1024,
+   "h": 934,
+   "role": "feature",
+   "title": "เปิดไฟล์ Ford ที่ร้านอื่นปิดมาแล้ว",
+   "text": "1 ไฟล์ที่ร้านอื่นปิด DTC มาแล้ว ขึ้น “Ford • เลือก ORI” • 2 เลือก ORI ของรถคันนี้ โปรแกรมเปิดตาราง DTC ให้ปิดเพิ่ม / เปิดคืนได้",
+   "note": "Ford Ranger / Everest / BT-50 (SID208, SID209, SID212 / 213) • ORI ต้องเป็นซอฟต์แวร์เดียวกัน"
+  },
+  {
+   "file": "offer.png",
+   "w": 1024,
+   "h": 820,
+   "role": "howto",
+   "title": "หน้าต่างอัปเดตในโปรแกรม"
+  }
+ ],
+ "source": "ford_ori.png: the 0.99 program on the shop PC (Windows platform, real fonts, window audit 1366x728 at 150 %), the test sample EB3G-14C204-AGX MOD STEP 2 before and after choosing its ORI, scaled to 1024 px; offer.png drawn by the 0.99 code (update window 0.98 -> 0.99, the notes of latest.json, drawn at 2x and scaled to 1024 px)"
+}

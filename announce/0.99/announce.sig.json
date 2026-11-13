@@ -1,0 +1,11 @@
+{
+ "manifest": {
+  "version": "0.99",
+  "pack_sha256": "51d9314b5f517611d2a34ae4e6d085925e201d26cf7f91796686c2ff16adae14",
+  "images": {
+   "ford_ori.png": "e03d980ca61833dd560577e4349c2d50a65611138ccf31a2d470a25453fa96e5",
+   "offer.png": "d5652cdb51883186d72a9fd7249d674e160332db7ffa28c1a70ec3aacb0f4131"
+  }
+ },
+ "signature": "jNh+Tt5MUdFK7wEMAI01hYcV8rdOp87Lr7u78MfarUq1Yh6V4DSYP7OVNoxq7aSMRLInCeac86deXCUgFWEaAA=="
+}

@@ -1,15 +1,16 @@
 {
  "manifest": {
-  "version": "0.98",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.98.exe",
-  "sha256": "77be14b1b08a2158259d726bd87ab399da1f264e89196f16cf53d7c649689db3",
-  "size": 41230476,
+  "version": "0.99",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.99.exe",
+  "sha256": "71e7d57d30fcb4e6541be9e7a1811a31bf7ed230dd44e4706ab1d5a41e83e517",
+  "size": 41300819,
   "notes": [
-   "กล่องข้อความในหน้าโปรไฟล์และหน้าต่ออายุ (เช่น คัดลอกแล้ว, ผลตรวจสิทธิ์) และเมนูคลิกขวา จากพื้นดำมองไม่เห็น เป็นพื้นขาว อ่านชัด",
-   "การปิด / เปิด DTC, EGR FULL CUT และการตรวจก่อนบันทึก เหมือน 0.97"
+   "ไฟล์ Ford ที่ร้านอื่นปิด DTC มาแล้วจนหาตารางไม่เจอ เปิดได้ด้วย ORI ของรถคันนั้น (โปรแกรมตรวจทุกแถวก่อนเปิด)",
+   "พจนานุกรมเพิ่มรหัส DTC มาตรฐาน 120 รหัส • ข้อความยาวไม่ตัดกลางคำแล้ว",
+   "ปิด / เปิด DTC ไฟล์อื่น, EGR FULL CUT และการตรวจก่อนบันทึก เหมือน 0.98"
   ],
   "min_version": "0",
-  "published": "2026-11-09"
+  "published": "2026-11-13"
  },
- "signature": "DX+3Vhip9DiBXu2SChkUlMWOJaT19BXgqt1aRwn5wg6O5XCcRhRWM0uIsNaojGAXfuXLtTjoAl6L8Vm+yoUZBg=="
+ "signature": "18jnFqunlPLEQA9NqKO/+UDT93b0HVFsDU3YNlhe0AElUXJaPsdxu/sWoO3KDgTAZ7wBl7uS/X+crn0hmOmfAg=="
 }
