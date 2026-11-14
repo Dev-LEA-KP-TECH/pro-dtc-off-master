@@ -1,0 +1,41 @@
+{
+ "v": 1,
+ "version": "1.00",
+ "date": "2026-11-14",
+ "size": 41333754,
+ "title": "ปิด DTC ได้เพิ่ม: Hino ดีเซล + Honda เบนซิน Keihin 37805",
+ "alt": "อัปเดต 1.00 มาแล้ว: เพิ่มรองรับ Hino ดีเซล (กล่อง Denso) และ Honda เบนซิน Keihin 37805 — ปิด/เปิด DTC ได้ (Honda ปิดมอนิเตอร์ไอเสีย CAT/EGR) ยืนยันจากคู่ไฟล์ของร้าน • รองรับ 14 ภาษา • เปิดโปรแกรมแล้วกด “อัปเดตเลย”",
+ "changes": [
+  {
+   "text": "Hino ดีเซล (กล่อง Denso): โปรแกรมหาตาราง DTC จากโครงสร้างไฟล์เอง ปิด / เปิด DTC ได้ ยืนยันด้วยคู่ไฟล์ ORI / ปิด ของร้าน (เปิดคืนต้องใช้ ORI ซอฟต์แวร์เดียวกัน)",
+   "kind": "new"
+  },
+  {
+   "text": "Honda เบนซิน Keihin 37805: ปิดมอนิเตอร์ไอเสีย CAT (P0420) / EGR ด้วยพรีเซ็ตที่ยืนยันจากคู่ไฟล์ของร้าน 43 ซอฟต์แวร์ ซอฟต์แวร์อื่นเปิดดูได้อย่างเดียวพร้อมข้อความให้ส่งคู่ไฟล์",
+   "kind": "new"
+  },
+  {
+   "text": "รองรับ 14 ภาษา • ปิด / เปิด DTC ตระกูลอื่น, Ford เลือก ORI, EGR FULL CUT และการตรวจก่อนบันทึก เหมือน 0.99 • โปรแกรมไม่แก้ checksum",
+   "kind": "same"
+  }
+ ],
+ "images": [
+  {
+   "file": "honda.png",
+   "w": 1024,
+   "h": 832,
+   "role": "feature",
+   "title": "ปิด CAT / EGR ของ Honda Keihin 37805",
+   "text": "1 เปิดไฟล์ Honda — เห็นมอนิเตอร์ CAT (P0420) / EGR เปิดอยู่ • 2 กดปิด → CAT / EGR OFF (ตรงกับไฟล์ปิดของร้าน)",
+   "note": "Honda เบนซิน Keihin 37805 (ไฟล์ 1–3 MB) • เปิดให้แก้เฉพาะซอฟต์แวร์ที่มีคู่ไฟล์ของร้านยืนยัน (43 ซอฟต์แวร์)"
+  },
+  {
+   "file": "offer.png",
+   "w": 1024,
+   "h": 987,
+   "role": "howto",
+   "title": "หน้าต่างอัปเดตในโปรแกรม"
+  }
+ ],
+ "source": "honda.png: the 1.00 program rendered in the cloud (offscreen, the program's bundled fonts, work window 1366x728 at 2x), test sample Honda 37805 R2C-Z560 ORI (before) and its CAT/EGR off pair (after), composed with caption bars and scaled to 1024 px; offer.png drawn by the 1.00 code (update window 0.99 -> 1.00, the notes of the signed latest.json, at 2x scaled to 1024 px). No customer data."
+}

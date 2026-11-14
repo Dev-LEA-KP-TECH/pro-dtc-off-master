@@ -1,0 +1,11 @@
+{
+ "manifest": {
+  "version": "1.00",
+  "pack_sha256": "e818ed277528dc08eafddec5dd71ad86f764b840fdc1b53b61ee3fb22a63c6f8",
+  "images": {
+   "honda.png": "d08d0f0312cf29d2a0b5eae404b9d1b2395a1173019a2bd130249686f3bb6ea3",
+   "offer.png": "d2763df1edc02a20ffd164bfdee7dcee5395f63654f603744a66d0caea2fc9ad"
+  }
+ },
+ "signature": "JhsKnLZQrq0IHBZHVCPqPTDZfUg/X7XM4cDQyq9xQdXLLTJjTZjraSVdHZyQEG9hk+SuJhw/oWdgLyivz2KXCA=="
+}

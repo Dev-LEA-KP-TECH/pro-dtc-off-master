@@ -1,16 +1,16 @@
 {
  "manifest": {
-  "version": "0.99",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_0.99.exe",
-  "sha256": "71e7d57d30fcb4e6541be9e7a1811a31bf7ed230dd44e4706ab1d5a41e83e517",
-  "size": 41300819,
+  "version": "1.00",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_1.00.exe",
+  "sha256": "05611a7f138d75a41361afee82f5e235cb24ff8b93113e62a188ae7526d7d942",
+  "size": 41333754,
   "notes": [
-   "ไฟล์ Ford ที่ร้านอื่นปิด DTC มาแล้วจนหาตารางไม่เจอ เปิดได้ด้วย ORI ของรถคันนั้น (โปรแกรมตรวจทุกแถวก่อนเปิด)",
-   "พจนานุกรมเพิ่มรหัส DTC มาตรฐาน 120 รหัส • ข้อความยาวไม่ตัดกลางคำแล้ว",
-   "ปิด / เปิด DTC ไฟล์อื่น, EGR FULL CUT และการตรวจก่อนบันทึก เหมือน 0.98"
+   "เพิ่มรองรับ Hino ดีเซล (กล่อง Denso): โปรแกรมหาตาราง DTC จากโครงสร้างไฟล์เอง ปิด/เปิด DTC ได้ ยืนยันด้วยคู่ไฟล์ ORI/ปิด ของร้าน (เปิดคืนต้องใช้ ORI ซอฟต์แวร์เดียวกัน)",
+   "เพิ่มรองรับ Honda เบนซิน Keihin 37805: ปิดมอนิเตอร์ไอเสีย (CAT / EGR) ด้วยพรีเซ็ตที่ยืนยันจากคู่ไฟล์ของร้าน 43 ซอฟต์แวร์ ซอฟต์แวร์อื่นเปิดดูได้อย่างเดียวพร้อมข้อความให้ส่งคู่ไฟล์",
+   "รองรับ 14 ภาษา • ปิด/เปิด DTC ตระกูลอื่น, Ford เลือก ORI, EGR FULL CUT และการตรวจก่อนบันทึก เหมือน 0.99 • โปรแกรมไม่แก้ checksum"
   ],
   "min_version": "0",
-  "published": "2026-11-13"
+  "published": "2026-11-14"
  },
- "signature": "18jnFqunlPLEQA9NqKO/+UDT93b0HVFsDU3YNlhe0AElUXJaPsdxu/sWoO3KDgTAZ7wBl7uS/X+crn0hmOmfAg=="
+ "signature": "Y055lmMKKpo+cBKRRTlaOm4kfuBjLcjMUTZgTI5rlpBzvLG4+sqCyUZmEeYE9fTicWIJLmoqXfdrJ4Ajye3RDA=="
 }
