@@ -1,16 +1,17 @@
 {
  "manifest": {
-  "version": "1.00",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_1.00.exe",
-  "sha256": "05611a7f138d75a41361afee82f5e235cb24ff8b93113e62a188ae7526d7d942",
-  "size": 41333754,
+  "version": "1.01",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_1.01.exe",
+  "sha256": "f80b06a3f2bdb442c8b44c6e454bb310263f16dc1e63d2cc5a1a00eb0342cb0f",
+  "size": 41303171,
   "notes": [
-   "เพิ่มรองรับ Hino ดีเซล (กล่อง Denso): โปรแกรมหาตาราง DTC จากโครงสร้างไฟล์เอง ปิด/เปิด DTC ได้ ยืนยันด้วยคู่ไฟล์ ORI/ปิด ของร้าน (เปิดคืนต้องใช้ ORI ซอฟต์แวร์เดียวกัน)",
-   "เพิ่มรองรับ Honda เบนซิน Keihin 37805: ปิดมอนิเตอร์ไอเสีย (CAT / EGR) ด้วยพรีเซ็ตที่ยืนยันจากคู่ไฟล์ของร้าน 43 ซอฟต์แวร์ ซอฟต์แวร์อื่นเปิดดูได้อย่างเดียวพร้อมข้อความให้ส่งคู่ไฟล์",
-   "รองรับ 14 ภาษา • ปิด/เปิด DTC ตระกูลอื่น, Ford เลือก ORI, EGR FULL CUT และการตรวจก่อนบันทึก เหมือน 0.99 • โปรแกรมไม่แก้ checksum"
+   "ไฟล์ที่ตาราง DTC ถูกลบทั้งตารางด้วยเครื่องมืออื่น (Chevrolet Colorado Bosch EDC16C39, Mitsubishi Triton / Pajero Denso 1 MB) บอกตรง ๆ ว่าตารางถูกลบ และต้องใช้ ORI ของซอฟต์แวร์เดียวกัน (เดิมขึ้นแค่ “ไม่พบโปรไฟล์ที่ตรง”)",
+   "Ford SID212 / SID213 (Ranger / Everest 2.0): ไฟล์งานที่ใส่รายการรหัส DTC ของซอฟต์แวร์อื่น (CYH) มาทั้งชุด ขึ้นป้ายเตือนพร้อมหมายเหตุ ยังเปิดแก้ได้เหมือนเดิม",
+   "พจนานุกรม DTC เพิ่ม / แก้คำอธิบายรหัสมาตรฐาน 146 รหัส (ปุ่มปิดตามระบบ EGR / SCR / DPF รวมรหัสเหล่านี้ด้วย) • แก้แผง “รายละเอียด” ข้อความทับกันเมื่อเปิดไฟล์ใหม่",
+   "รองรับ 14 ภาษา • ปิด / เปิด DTC ตระกูลอื่น, Ford เลือก ORI, Hino, Honda เหมือน 1.00 • โปรแกรมไม่แก้ checksum"
   ],
   "min_version": "0",
-  "published": "2026-11-14"
+  "published": "2026-11-15"
  },
- "signature": "Y055lmMKKpo+cBKRRTlaOm4kfuBjLcjMUTZgTI5rlpBzvLG4+sqCyUZmEeYE9fTicWIJLmoqXfdrJ4Ajye3RDA=="
+ "signature": "kYQ20wAshCHXTweM3rmfEP2I0n+aZCrVFpY1hcU19AeTfbtl0SpJbJubLZFMhTXproPdlaOh6vrE4iRoDzVWDA=="
 }

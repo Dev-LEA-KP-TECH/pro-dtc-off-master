@@ -1,0 +1,45 @@
+{
+ "v": 1,
+ "version": "1.01",
+ "date": "2026-11-15",
+ "size": 41303171,
+ "title": "บอกชัดเมื่อตาราง DTC ถูกลบ + เตือนไฟล์ Ford ที่ใส่ตารางซอฟต์แวร์อื่น",
+ "alt": "อัปเดต 1.01 มาแล้ว: ไฟล์ที่ตาราง DTC ถูกลบด้วยเครื่องมืออื่น (Colorado EDC16C39 / Mitsubishi Denso) บอกตรง ๆ ว่าต้องใช้ ORI ของซอฟต์แวร์เดียวกัน • Ford SID212/213 ที่ใส่ตาราง DTC ของซอฟต์แวร์อื่นมา ขึ้นป้ายเตือน • คำอธิบายรหัสเพิ่ม 146 รหัส • เปิดโปรแกรมแล้วกด “อัปเดตเลย”",
+ "changes": [
+  {
+   "text": "ไฟล์ที่ตาราง DTC ถูกลบทั้งตารางด้วยเครื่องมืออื่น (Chevrolet Colorado Bosch EDC16C39, Mitsubishi Triton / Pajero Denso 1 MB): บอกตรง ๆ ว่าตารางถูกลบ และต้องใช้ ORI ของซอฟต์แวร์เดียวกัน (เดิมขึ้นแค่ “ไม่พบโปรไฟล์ที่ตรง”)",
+   "kind": "new"
+  },
+  {
+   "text": "Ford SID212 / SID213 (Ranger / Everest 2.0): ไฟล์งานที่ใส่รายการรหัส DTC ของซอฟต์แวร์อื่น (CYH) มาทั้งชุด ขึ้นป้ายเตือนพร้อมหมายเหตุ ยังเปิดแก้ได้เหมือนเดิม",
+   "kind": "new"
+  },
+  {
+   "text": "คำอธิบายรหัสมาตรฐานเพิ่ม / แก้ 146 รหัส (ปุ่มปิดตามระบบ EGR / SCR / DPF รวมรหัสเหล่านี้ด้วย) • แผง “รายละเอียด” ไม่ทับกันแล้วเมื่อเปิดไฟล์ใหม่",
+   "kind": "new"
+  },
+  {
+   "text": "รองรับ 14 ภาษา • ปิด / เปิด DTC ตระกูลอื่น, Ford เลือก ORI, Hino, Honda เหมือน 1.00 • โปรแกรมไม่แก้ checksum",
+   "kind": "same"
+  }
+ ],
+ "images": [
+  {
+   "file": "notice101.png",
+   "role": "feature",
+   "title": "ไฟล์ที่ตาราง DTC ถูกลบ / ตาราง DTC ซอฟต์แวร์อื่น",
+   "text": "1 Colorado EDC16C39 ที่ตารางถูกลบ: โปรแกรมบอกตรง ๆ ว่าต้องใช้ ORI ซอฟต์แวร์เดียวกัน • 2 Ford SID212/213 ที่ใส่ตาราง DTC ของ CYH มา: ป้ายเตือน + หมายเหตุ (ยังแก้ได้)",
+   "note": "ตัวอย่างจากไฟล์ทดสอบของร้าน (ไม่มีข้อมูลลูกค้า)",
+   "w": 1024,
+   "h": 1002
+  },
+  {
+   "file": "offer.png",
+   "w": 1024,
+   "h": 1071,
+   "role": "howto",
+   "title": "หน้าต่างอัปเดตในโปรแกรม"
+  }
+ ],
+ "source": "notice101.png: the 1.01 program rendered in the cloud (offscreen, the program's bundled fonts, work window 1366x768 at 2x, details drawer open), test samples: test_data/edc16/ORI_0045.bin with its code list and T/C/K tables zeroed in memory (a wiped Colorado read), and test_data/ford_mb3g MB3G-14C204-BTH with the CYH code list (the shop's work-file form); composed with caption bars and scaled to 1024 px; offer.png drawn by the 1.01 code during RELEASE. No customer data."
+}
