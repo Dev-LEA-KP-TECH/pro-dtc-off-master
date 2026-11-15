@@ -1,17 +1,17 @@
 {
  "manifest": {
-  "version": "1.01",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_1.01.exe",
-  "sha256": "f80b06a3f2bdb442c8b44c6e454bb310263f16dc1e63d2cc5a1a00eb0342cb0f",
-  "size": 41303171,
+  "version": "1.02",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_1.02.exe",
+  "sha256": "096b9b51076b299f7d64fb67c3157cbf021fc99c26533855c92fbee6770b5e17",
+  "size": 41321372,
   "notes": [
-   "ไฟล์ที่ตาราง DTC ถูกลบทั้งตารางด้วยเครื่องมืออื่น (Chevrolet Colorado Bosch EDC16C39, Mitsubishi Triton / Pajero Denso 1 MB) บอกตรง ๆ ว่าตารางถูกลบ และต้องใช้ ORI ของซอฟต์แวร์เดียวกัน (เดิมขึ้นแค่ “ไม่พบโปรไฟล์ที่ตรง”)",
-   "Ford SID212 / SID213 (Ranger / Everest 2.0): ไฟล์งานที่ใส่รายการรหัส DTC ของซอฟต์แวร์อื่น (CYH) มาทั้งชุด ขึ้นป้ายเตือนพร้อมหมายเหตุ ยังเปิดแก้ได้เหมือนเดิม",
-   "พจนานุกรม DTC เพิ่ม / แก้คำอธิบายรหัสมาตรฐาน 146 รหัส (ปุ่มปิดตามระบบ EGR / SCR / DPF รวมรหัสเหล่านี้ด้วย) • แก้แผง “รายละเอียด” ข้อความทับกันเมื่อเปิดไฟล์ใหม่",
-   "รองรับ 14 ภาษา • ปิด / เปิด DTC ตระกูลอื่น, Ford เลือก ORI, Hino, Honda เหมือน 1.00 • โปรแกรมไม่แก้ checksum"
+   "Chevrolet Colorado Bosch EDC16C39 (1037513351) ที่ตาราง DTC ถูกเครื่องมืออื่นลบทั้งตาราง เปิดแก้ได้แล้วด้วย ORI ของรถคันนี้ (ซอฟต์แวร์และ GM part เดียวกัน): เครื่องมือ → เลือกไฟล์ ORI สำหรับคืนค่า",
+   "โปรแกรมตรวจ ORI ก่อนเปิดทุกครั้ง (GM part, ตารางโรงงาน, ข้อมูลก่อนตาราง, ทุกแถว) • เปิดแถวไหนเขียนแถวของ ORI คืนทั้งแถว • “เปิดทั้งหมด” ได้ตาราง ORI ครบ ไฟล์ที่บันทึกเปิดได้เอง",
+   "แก้บัค: ไฟล์ที่ตารางเส้นทาง (T) ถูกลบแต่เปิดได้เอง ไม่คืนค่าแค่คลาสแล้ว (คืนไม่ครบ) • ไฟล์ร้าน GM 12634244 ที่เปิดเองไม่ได้ เปิดได้ 90 จาก 97 ไฟล์",
+   "รองรับ 14 ภาษา • อย่างอื่นเหมือน 1.01 • โปรแกรมไม่แก้ checksum"
   ],
   "min_version": "0",
   "published": "2026-11-15"
  },
- "signature": "kYQ20wAshCHXTweM3rmfEP2I0n+aZCrVFpY1hcU19AeTfbtl0SpJbJubLZFMhTXproPdlaOh6vrE4iRoDzVWDA=="
+ "signature": "lf7y6Xz6JDVoyZoWmjWJ1YrmtEiqaw0oOYkzm7rVUkYb7nueaj3EJRrF9B+h31kGg8iVWo83s1iX3op4UsAxAA=="
 }

@@ -1,0 +1,45 @@
+{
+ "v": 1,
+ "version": "1.02",
+ "date": "2026-11-15",
+ "size": 41321372,
+ "title": "Colorado EDC16C39 ที่ตาราง DTC ถูกลบ เปิดแก้ได้แล้วด้วย ORI ของรถคันนี้",
+ "alt": "อัปเดต 1.02 มาแล้ว: ไฟล์ Chevrolet Colorado Bosch EDC16C39 ที่ตาราง DTC ถูกเครื่องมืออื่นลบทั้งตาราง เปิดแก้ได้ด้วย ORI ของรถคันนี้ (ซอฟต์แวร์และ GM part เดียวกัน) • โปรแกรมตรวจ ORI ทุกแถวก่อนเปิด • เปิดโปรแกรมแล้วกด “อัปเดตเลย”",
+ "changes": [
+  {
+   "text": "Chevrolet Colorado Bosch EDC16C39 (1037513351) ที่ตาราง DTC ถูกเครื่องมืออื่นลบทั้งตาราง เปิดแก้ได้แล้วด้วย ORI ของรถคันนี้ (ซอฟต์แวร์และ GM part เดียวกัน): เครื่องมือ → เลือกไฟล์ ORI สำหรับคืนค่า",
+   "kind": "new"
+  },
+  {
+   "text": "โปรแกรมตรวจ ORI ก่อนเปิดทุกครั้ง (GM part, ตารางโรงงาน, ข้อมูลก่อนตาราง, ทุกแถว) • เปิดแถวไหนเขียนแถวของ ORI คืนทั้งแถว • “เปิดทั้งหมด” ได้ตาราง ORI ครบ ไฟล์ที่บันทึกเปิดได้เอง",
+   "kind": "new"
+  },
+  {
+   "text": "แก้บัค: ไฟล์ที่ตารางเส้นทาง (T) ถูกลบแต่เปิดได้เอง ไม่คืนค่าแค่คลาสแล้ว (คืนไม่ครบ) • ไฟล์ร้าน GM 12634244 ที่เปิดเองไม่ได้ เปิดได้ 90 จาก 97 ไฟล์",
+   "kind": "new"
+  },
+  {
+   "text": "รองรับ 14 ภาษา • อย่างอื่นเหมือน 1.01 • โปรแกรมไม่แก้ checksum",
+   "kind": "same"
+  }
+ ],
+ "images": [
+  {
+   "file": "located102.png",
+   "role": "feature",
+   "title": "Colorado EDC16C39 ที่ตาราง DTC ถูกลบ + ORI",
+   "text": "1 ไฟล์ที่ตารางถูกลบ: โปรแกรมบอกให้เลือก ORI ของรถคันนี้ • 2 เลือก ORI แล้ว: เปิดตารางตามตำแหน่งของ ORI ตรวจทุกแถว เปิดแถวไหนเขียนค่า ORI คืน",
+   "note": "ตัวอย่างจากไฟล์ทดสอบของร้าน (ไม่มีข้อมูลลูกค้า)",
+   "w": 1024,
+   "h": 1104
+  },
+  {
+   "file": "offer.png",
+   "w": 1024,
+   "h": 1029,
+   "role": "howto",
+   "title": "หน้าต่างอัปเดตในโปรแกรม"
+  }
+ ],
+ "source": "located102.png: the 1.02 program rendered in the cloud (offscreen, the program bundled fonts, work window 1366x768 at 2x, details drawer open) with test_data/edc16_located 12634244 wiped T C K read and its GM part factory read (copied under neutral names); composed with caption bars and scaled to 1024 px; offer.png drawn by the 1.02 code during RELEASE. No customer data."
+}
