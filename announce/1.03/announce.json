@@ -1,0 +1,57 @@
+{
+ "v": 1,
+ "version": "1.03",
+ "date": "2026-11-16",
+ "size": 41323769,
+ "title": "Isuzu ไฟล์จูนที่ถูกลบรหัส EGR เปิดได้แล้ว + Delphi DCM3.7 ไฟล์ Kess + Honda Civic FC",
+ "alt": "อัปเดต 1.03 มาแล้ว: ไฟล์จูน Isuzu D-Max / MU-X ที่เครื่องมืออื่นลบรหัส EGR ออกจากรายการรหัส เปิดได้แล้ว • Delphi DCM3.7 ไฟล์อ่านจาก Kess เปิดได้ • Honda Civic FC 37805-5FA ปิดมอนิเตอร์แคต / EGR ได้ • เปิดโปรแกรมแล้วกด “อัปเดตเลย”",
+ "changes": [
+  {
+   "text": "Isuzu D-Max / MU-X (Denso): ไฟล์จูนที่เครื่องมืออื่นลบรหัส EGR ออกจากรายการรหัส DTC (เช่นซอฟต์แวร์ 98152080 / 98152106 และไฟล์ที่ไม่มีเลขซอฟต์แวร์) เปิดได้แล้ว เดิมขึ้นว่าไม่พบโปรไฟล์ที่ตรง",
+   "kind": "new"
+  },
+  {
+   "text": "ไฟล์แบบนี้: แถวที่รหัสถูกลบแสดง “—” และโปรแกรมไม่แก้แถวนั้น • แถวอื่นปิดได้ตามปกติ • ถ้าต้องการเปิด DTC คืนให้เขียนไฟล์ ORI กลับ",
+   "kind": "new"
+  },
+  {
+   "text": "แก้บัค: ไฟล์ Isuzu ซอฟต์แวร์ 98102102 ที่ถูกลบรหัส เดิมเปิดและเขียนผิดตำแหน่งตาราง ตอนนี้เปิดที่ตำแหน่งจริง (ไฟล์ที่เคยบันทึกจากไฟล์แบบนี้ด้วยรุ่นก่อน ให้ทำใหม่จากไฟล์ก่อนแก้)",
+   "kind": "new"
+  },
+  {
+   "text": "แก้บัค: Honda Keihin ตรวจไบต์สวิตช์ของทุกไฟล์ที่เปิด (เดิมใช้ผลของไฟล์แรกของซอฟต์แวร์เดียวกัน)",
+   "kind": "new"
+  },
+  {
+   "text": "Chevrolet Delphi DCM3.7: ไฟล์อ่านจาก Kess (2,228,224 ไบต์) เปิดได้แล้ว • ORI ที่อ่านแบบ 2 MB ใช้คู่กันได้",
+   "kind": "new"
+  },
+  {
+   "text": "Honda Civic FC 37805-5FA-Z510 / Z520 และ Honda 37805-RNA-Y810 / RNA-Y860: ปิดมอนิเตอร์แคต / EGR ได้แล้ว",
+   "kind": "new"
+  },
+  {
+   "text": "รองรับ 14 ภาษา • อย่างอื่นเหมือน 1.02 • โปรแกรมไม่แก้ checksum",
+   "kind": "same"
+  }
+ ],
+ "images": [
+  {
+   "file": "feature103.png",
+   "role": "feature",
+   "title": "Isuzu ไฟล์จูนที่ถูกลบรหัส EGR + Honda Civic FC",
+   "text": "1 ไฟล์จูน Isuzu ที่รหัส EGR ถูกลบออกจากรายการรหัส: เปิดได้ เห็นสถานะทุกแถว • 2 Honda Civic FC 37805-5FA: สวิตช์มอนิเตอร์แคต / EGR 2 ตัว",
+   "note": "ตัวอย่างจากไฟล์ทดสอบของร้าน (ไม่มีข้อมูลลูกค้า)",
+   "w": 1024,
+   "h": 853
+  },
+  {
+   "file": "offer.png",
+   "w": 1024,
+   "h": 1280,
+   "role": "howto",
+   "title": "หน้าต่างอัปเดตในโปรแกรม"
+  }
+ ],
+ "source": "feature103.png: the 1.03 program rendered in the cloud (offscreen, the program bundled fonts, work window 1366x768 at 2x) with test_data/isuzu_wiped 98152080_wiped5_tune.bin and test_data/honda_37805 5FA-Z510_ori.bin (copied under neutral names); composed with caption bars and scaled to 1024 px; offer.png drawn by the 1.03 code during RELEASE. No customer data."
+}
