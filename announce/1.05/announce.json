@@ -1,0 +1,45 @@
+{
+ "v": 1,
+ "version": "1.05",
+ "date": "2026-11-17",
+ "size": 41329101,
+ "title": "เชฟ 5G: ไฟล์คาลิเบรชัน (BitBox / mod / WinOLS) ที่ตาราง DTC ครบ เปิดได้แล้ว",
+ "alt": "อัปเดต 1.05 มาแล้ว: ไฟล์ Chevrolet Colorado / Trailblazer 5G ที่มีเฉพาะส่วนคาลิเบรชัน (จาก BitBox / mod / ภาพใน WinOLS) เปิดได้แล้วเมื่อตาราง DTC ในไฟล์ยังอยู่ครบ ด้วยตาราง DTC เดียวกับไฟล์อ่านเต็ม • เปิดโปรแกรมแล้วกด “อัปเดตเลย”",
+ "changes": [
+  {
+   "text": "Chevrolet Colorado / Trailblazer 5G (Bosch EDC16C39 1037513351): ไฟล์ที่มีเฉพาะส่วนคาลิเบรชัน (จาก BitBox / mod / ภาพใน WinOLS — ส่วนโปรแกรมเป็น FF) เปิดได้แล้วเมื่อตาราง DTC ในไฟล์ยังอยู่ครบ ด้วยตาราง DTC เดียวกับไฟล์อ่านเต็มของรถคันนั้น",
+   "kind": "new"
+  },
+  {
+   "text": "ไฟล์คาลิเบรชันที่ตาราง DTC ถูกเครื่องมืออื่นลบทั้งตาราง ขึ้นแจ้งแบบไฟล์อ่านเต็มที่ถูกลบ และเปิดได้ด้วยไฟล์อ่านจากกล่อง (ORI) ของรถคันนั้น เมื่อข้อมูลก่อนตารางยังอยู่ เป็น GM part ที่มีตารางโรงงานยืนยันแล้ว และ ORI ยังไม่ถูกปิด DTC",
+   "kind": "new"
+  },
+  {
+   "text": "ปิด DTC ใช้กฎเดิมของเชฟ 5G (ไบต์คลาสของแถว = 00) • ไฟล์ร้านที่เคยเปิดได้ยังเปิดด้วยโปรไฟล์และตารางเดิมทุกไฟล์",
+   "kind": "same"
+  },
+  {
+   "text": "รองรับ 14 ภาษา • อย่างอื่นเหมือน 1.04 • โปรแกรมไม่แก้ checksum",
+   "kind": "same"
+  }
+ ],
+ "images": [
+  {
+   "file": "feature105.png",
+   "role": "feature",
+   "title": "เชฟ 5G ไฟล์คาลิเบรชัน",
+   "text": "ไฟล์ Colorado 5G ที่มีเฉพาะส่วนคาลิเบรชันและตาราง DTC ยังครบ เปิดได้แล้ว: ตาราง DTC 321 แถวที่ตำแหน่งเดียวกับไฟล์อ่านเต็ม ปิด / เปิด DTC ได้ตามปกติ",
+   "note": "ตัวอย่างทำจากไฟล์ทดสอบของร้าน (ไม่มีข้อมูลลูกค้า)",
+   "w": 1024,
+   "h": 539
+  },
+  {
+   "file": "offer.png",
+   "w": 1024,
+   "h": 1113,
+   "role": "howto",
+   "title": "หน้าต่างอัปเดตในโปรแกรม"
+  }
+ ],
+ "source": "feature105.png: the 1.05 program rendered in the cloud (offscreen, the program bundled fonts, work window 1366x768 at 2x) with test_data/edc16_calonly/12634244_calonly_ori_403676bb.bin copied under a neutral name; caption bar added and scaled to 1024 px; offer.png drawn by the 1.05 code during RELEASE. No customer data."
+}
