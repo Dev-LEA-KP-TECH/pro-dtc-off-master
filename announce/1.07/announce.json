@@ -1,0 +1,45 @@
+{
+ "v": 1,
+ "version": "1.07",
+ "date": "2026-11-22",
+ "size": 41374947,
+ "title": "Toyota / Lexus รุ่นเก่า (Denso V850) เปิดได้แล้ว",
+ "alt": "อัปเดต 1.07 มาแล้ว: Toyota / Lexus รุ่นเก่า กล่อง Denso V850 ไฟล์ 320 / 384 KB และไฟล์ Toyota ซอฟต์แวร์ 89665 / 89536 ปิด / เปิด DTC ได้แล้ว • ก่อนบันทึกโปรแกรมถามยืนยัน (ยังไม่มีคู่ไฟล์ยืนยันวิธีปิดของสองกลุ่มนี้) • เปิดโปรแกรมแล้วกด “อัปเดตเลย”",
+ "changes": [
+  {
+   "text": "Toyota / Lexus รุ่นเก่า กล่อง Denso V850 ไฟล์ 320 / 384 KB (89663-xxxxx เช่น Camry 2AZ-FE, Lexus ES300 / GS430) เปิดได้แล้ว: ปิด / เปิด DTC ได้ (ปิด = เรคคอร์ด DTC เป็น 00 ทั้ง 8 ไบต์ แบบเดียวกับ Vigo / Fortuner)",
+   "kind": "new"
+  },
+  {
+   "text": "ไฟล์ Toyota Denso V850 ซอฟต์แวร์ 89665 / 89536 (ส่วนใหญ่เป็นรหัสเกียร์ออโต้) เปิดได้แล้ว ปิด / เปิด DTC ได้แบบเดียวกัน",
+   "kind": "new"
+  },
+  {
+   "text": "ข้อควรรู้: สองกลุ่มนี้ยังไม่มีคู่ไฟล์ ORI / ปิด DTC ยืนยันวิธีปิดและเรื่อง checksum โปรแกรมจึงถามยืนยันก่อนบันทึก • ลองบนรถก่อนใช้งานจริง และเก็บไฟล์เดิมไว้",
+   "kind": "new"
+  },
+  {
+   "text": "แก้: ไฟล์ Toyota (รวม Revo 2020+) ที่บันทึกไว้ เปิดกลับในเครื่องเดิมพร้อม ORI ที่จำไว้และเห็นครบทุกรหัส • อย่างอื่นเหมือน 1.06 • โปรแกรมไม่แก้ checksum",
+   "kind": "same"
+  }
+ ],
+ "images": [
+  {
+   "file": "feature107.png",
+   "role": "feature",
+   "title": "Toyota / Lexus รุ่นเก่า",
+   "text": "ไฟล์ Toyota / Lexus รุ่นเก่า (Denso V850 ไฟล์ 384 KB) ซอฟต์แวร์ 89663-48711: ตาราง DTC 170 แถว ปิดแคท / O2 หลังได้ตามปกติ",
+   "note": "ตัวอย่างทำจากไฟล์ทดสอบ (ไม่มีข้อมูลลูกค้า)",
+   "w": 1024,
+   "h": 539
+  },
+  {
+   "file": "offer.png",
+   "w": 1024,
+   "h": 1029,
+   "role": "howto",
+   "title": "หน้าต่างอัปเดตในโปรแกรม"
+  }
+ ],
+ "source": "feature107.png: the 1.07 program rendered in the cloud (offscreen, the program bundled fonts, work window 1366x768 at 2x) with test_data/v107/toyota_old_89663-48711_cbd1a02b.bin copied under a neutral name, P0420 P0430 P0136-P0138 P0156-P0158 switched off (not saved); caption bar drawn with Qt and scaled to 1024 px; offer.png drawn by the 1.07 code during RELEASE. No customer data."
+}

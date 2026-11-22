@@ -1,0 +1,11 @@
+{
+ "manifest": {
+  "version": "1.07",
+  "pack_sha256": "ba3420c34487a91afbe20543ea425ba21eaf3439499dbf51f85b3c920efb98db",
+  "images": {
+   "feature107.png": "45ba7ca14cd67b50ecc7b5ef64965e9d414f4527f876ed3976de7566408f4ffb",
+   "offer.png": "9c95893e8ea2f7e9c11e8986f778248819f7082038971af73ca09f22030ecdb3"
+  }
+ },
+ "signature": "YZlJR6IC7mjxaQan6l+EG3DursiJop0sWxcAF7f5Y4h5KvPCdltMxmszh/r3q1/+m3/DG+4X8nfzxJMduI0OAA=="
+}
