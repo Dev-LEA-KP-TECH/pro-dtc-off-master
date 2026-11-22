@@ -1,0 +1,45 @@
+{
+ "v": 1,
+ "version": "1.06",
+ "date": "2026-11-22",
+ "size": 41358850,
+ "title": "Toyota 86 / BRZ เปิดได้แล้ว • Triton ที่ตาราง DTC ถูกลบ เปิดด้วย ORI ได้",
+ "alt": "อัปเดต 1.06 มาแล้ว: Toyota 86 / Subaru BRZ (Denso 1.25 MB) ซอฟต์แวร์ ZA1JA02A ปิด / เปิด DTC ได้ • Mitsubishi Triton / Pajero ที่ตาราง DTC ถูกลบทั้งตาราง เปิดได้ด้วยไฟล์อ่านจากกล่อง (ORI) ของรถคันนี้ • Chevrolet Colorado 5G ที่ตารางถูกลบแบบคลาส FF เปิดด้วย ORI ได้ • เปิดโปรแกรมแล้วกด “อัปเดตเลย”",
+ "changes": [
+  {
+   "text": "Toyota 86 / Subaru BRZ (Denso 1.25 MB) เปิดได้แล้ว: ซอฟต์แวร์ ZA1JA02A ปิด / เปิด DTC ได้ (ปิด = ไบต์แรกของแถวเป็น 00 ตรงกับไฟล์ปิด DTC ที่ใช้ตรวจทุกไบต์ในตาราง) • ROM ID อื่นของตระกูลนี้เปิดดูได้อย่างเดียว",
+   "kind": "new"
+  },
+  {
+   "text": "Mitsubishi Triton / Pajero (Denso 1 MB) ที่ตาราง DTC ถูกเครื่องมืออื่นลบทั้งตาราง เปิดได้แล้วด้วยไฟล์อ่านจากกล่อง (ORI) ของรถคันนี้ (ซอฟต์แวร์และ calibration เดียวกัน) • เปิดแถวไหน โปรแกรมเขียนค่าของ ORI คืนให้",
+   "kind": "new"
+  },
+  {
+   "text": "Chevrolet Colorado 5G ที่ตาราง DTC ถูกลบแบบเขียนคลาสเป็น FF เปิดด้วย ORI ได้แล้ว • ไฟล์ที่เคยเปิดได้ยังเปิดด้วยโปรไฟล์และตารางเดิมทุกไฟล์",
+   "kind": "new"
+  },
+  {
+   "text": "รองรับ 14 ภาษา (หน้าต่างตรวจข้อมูล ECU / เปรียบเทียบไฟล์ แสดงตามภาษาที่เลือกครบแล้ว) • อย่างอื่นเหมือน 1.05 • โปรแกรมไม่แก้ checksum",
+   "kind": "same"
+  }
+ ],
+ "images": [
+  {
+   "file": "feature106.png",
+   "role": "feature",
+   "title": "Toyota 86 / Subaru BRZ",
+   "text": "ไฟล์ Toyota 86 / Subaru BRZ (Denso 1.25 MB) ซอฟต์แวร์ ZA1JA02A: ตาราง DTC 197 แถว ปิด / เปิด DTC ได้ตามปกติ แถวที่ปิดจากโรงงานแสดงเป็นปิด",
+   "note": "ตัวอย่างทำจากไฟล์ทดสอบ (ไม่มีข้อมูลลูกค้า)",
+   "w": 1024,
+   "h": 539
+  },
+  {
+   "file": "offer.png",
+   "w": 1024,
+   "h": 1071,
+   "role": "howto",
+   "title": "หน้าต่างอัปเดตในโปรแกรม"
+  }
+ ],
+ "source": "feature106.png: the 1.06 program rendered in the cloud (offscreen, the program bundled fonts, work window 1366x768 at 2x) with test_data/v106/fa20_ZA1JA02A_org_b2587d85.bin copied under a neutral name, P0420 switched off (not saved); caption bar added and scaled to 1024 px; offer.png drawn by the 1.06 code during RELEASE. No customer data."
+}

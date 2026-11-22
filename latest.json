@@ -1,17 +1,17 @@
 {
  "manifest": {
-  "version": "1.05",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_1.05.exe",
-  "sha256": "bb44551c1963d7cb7ea63ef9e890d3065fc24406731c8a5a7760099dbb557906",
-  "size": 41329101,
+  "version": "1.06",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_1.06.exe",
+  "sha256": "d47240c6345586129a0db6dd97dc9ec766445b476f5f694e4d4e9ae44b7940c3",
+  "size": 41358850,
   "notes": [
-   "Chevrolet Colorado / Trailblazer 5G (Bosch EDC16C39 1037513351): ไฟล์ที่มีเฉพาะส่วนคาลิเบรชัน (จาก BitBox / mod / ภาพใน WinOLS — ส่วนโปรแกรมเป็น FF) เปิดได้แล้วเมื่อตาราง DTC ในไฟล์ยังอยู่ครบ ด้วยตาราง DTC เดียวกับไฟล์อ่านเต็มของรถคันนั้น",
-   "ไฟล์คาลิเบรชันที่ตาราง DTC ถูกเครื่องมืออื่นลบทั้งตาราง ขึ้นแจ้งแบบไฟล์อ่านเต็มที่ถูกลบ และเปิดได้ด้วยไฟล์อ่านจากกล่อง (ORI) ของรถคันนั้น เมื่อข้อมูลก่อนตารางยังอยู่ เป็น GM part ที่มีตารางโรงงานยืนยันแล้ว และ ORI ยังไม่ถูกปิด DTC",
-   "ปิด DTC ใช้กฎเดิมของเชฟ 5G (ไบต์คลาสของแถว = 00) • ไฟล์ร้านที่เคยเปิดได้ยังเปิดด้วยโปรไฟล์และตารางเดิมทุกไฟล์",
-   "รองรับ 14 ภาษา • อย่างอื่นเหมือน 1.04 • โปรแกรมไม่แก้ checksum"
+   "Toyota 86 / Subaru BRZ (Denso 1.25 MB) เปิดได้แล้ว: ซอฟต์แวร์ ZA1JA02A ปิด / เปิด DTC ได้ (ปิด = ไบต์แรกของแถวเป็น 00 ตรงกับไฟล์ปิด DTC ที่ใช้ตรวจทุกไบต์ในตาราง) • ROM ID อื่นของตระกูลนี้เปิดดูได้อย่างเดียว",
+   "Mitsubishi Triton / Pajero (Denso 1 MB) ที่ตาราง DTC ถูกเครื่องมืออื่นลบทั้งตาราง เปิดได้แล้วด้วยไฟล์อ่านจากกล่อง (ORI) ของรถคันนี้ (ซอฟต์แวร์และ calibration เดียวกัน) • เปิดแถวไหน โปรแกรมเขียนค่าของ ORI คืนให้",
+   "Chevrolet Colorado 5G ที่ตาราง DTC ถูกลบแบบเขียนคลาสเป็น FF เปิดด้วย ORI ได้แล้ว • ไฟล์ที่เคยเปิดได้ยังเปิดด้วยโปรไฟล์และตารางเดิมทุกไฟล์",
+   "รองรับ 14 ภาษา (หน้าต่างตรวจข้อมูล ECU / เปรียบเทียบไฟล์ แสดงตามภาษาที่เลือกครบแล้ว) • อย่างอื่นเหมือน 1.05 • โปรแกรมไม่แก้ checksum"
   ],
   "min_version": "0",
-  "published": "2026-11-17"
+  "published": "2026-11-22"
  },
- "signature": "zT3+nfgjseKjKlIgK05MRogI1HA2G86eZao2BRDmCQwJwD5f8v3GDrpWN9A8YZy4k+Kqpr/Buz6xTeCzHmSQAg=="
+ "signature": "Xfr94WVR2FbmNFE/QauAc0rR8z4mZwaGri4WDmoQM4ocCW15cYL/bh2MSXBF8Ui57/CWphD9NSGbxAgAI8ahAg=="
 }
