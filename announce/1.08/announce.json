@@ -1,0 +1,45 @@
+{
+ "v": 1,
+ "version": "1.08",
+ "date": "2026-11-24",
+ "size": 41398831,
+ "title": "Hino J05 / J07 / E13 รุ่นใหม่ เปิดได้แล้ว",
+ "alt": "อัปเดต 1.08 มาแล้ว: Hino Denso ตารางแบบใหม่ (J05 / J07 / J08 / E13) ปิด / เปิด DTC ได้แล้ว • แก้ Hino ตารางแบบ B ที่รุ่นก่อนเขียน 0000 เกินตาราง DTC Level (ไฟล์เดิมซ่อมได้ตอนบันทึกพร้อม ORI) • ภาษาในโปรแกรม ไทย / อังกฤษ / ลาว • เปิดโปรแกรมแล้วกด “อัปเดตเลย”",
+ "changes": [
+  {
+   "text": "Hino Denso ตารางแบบใหม่ (J05 / J07 / J08 / E13 เช่น ซอฟต์แวร์ RTL0, RTB0, RAE0, RB10, R9T0, RY20) เปิดได้แล้ว: ปิด / เปิด DTC ได้ (ปิด = ตาราง DTC Level 6 ตารางของแถวเป็น 0000 เก็บรหัสไว้ แบบเดียวกับ Hino รุ่นก่อน)",
+   "kind": "new"
+  },
+  {
+   "text": "ไฟล์ Hino Denso ที่รหัส DTC ในตารางถูกลบหมดแล้ว (ไฟล์ปิด DTC ที่ลบตารางมา) โปรแกรมบอกให้เปิดไฟล์ของรถคันนั้นที่ยังไม่ได้ปิด DTC แทน • ข้อควรรู้: J05 RTL0 ตรวจกับคู่ไฟล์ ORI / ปิด DTC แล้ว ซอฟต์แวร์อื่นใช้ตารางชุดเดียวกัน ลองบนรถก่อนใช้งานจริง และเก็บไฟล์เดิมไว้",
+   "kind": "new"
+  },
+  {
+   "text": "แก้: Hino Denso ตารางแบบ B (เช่น R5M0 / R550 / RH30) รุ่น 1.00–1.07 ตอนปิด DTC เขียน 0000 ลงตารางถัดไปที่ไม่ใช่ตาราง DTC Level ด้วย • 1.08 เขียนเฉพาะตาราง DTC Level • ไฟล์ที่บันทึกไว้แล้ว: เลือกไฟล์ ORI แล้วกดบันทึก โปรแกรมถามให้ซ่อมก่อน (หรือกด “ซ่อมค่า Hino Denso” ในเมนูเครื่องมือ)",
+   "kind": "new"
+  },
+  {
+   "text": "ภาษาในโปรแกรมเหลือ ไทย / อังกฤษ / ลาว (เครื่องที่ตั้งภาษาอื่นไว้จะเปิดเป็นอังกฤษ) • ปุ่มในเมนูเครื่องมือไม่ถูกตัดบนจอเล็ก • อย่างอื่นเหมือน 1.07 • โปรแกรมไม่แก้ checksum",
+   "kind": "same"
+  }
+ ],
+ "images": [
+  {
+   "file": "feature108.png",
+   "role": "feature",
+   "title": "Hino J05 / J07 / E13 รุ่นใหม่",
+   "text": "ไฟล์ Hino J05 (Hino Denso ตารางแบบใหม่) ซอฟต์แวร์ RTL0YM660110: ตาราง DTC 230 แถว ปิด EGR / DPF ได้ตามปกติ",
+   "note": "ตัวอย่างทำจากไฟล์ทดสอบ (ไม่มีข้อมูลลูกค้า)",
+   "w": 1024,
+   "h": 539
+  },
+  {
+   "file": "offer.png",
+   "w": 1024,
+   "h": 1238,
+   "role": "howto",
+   "title": "หน้าต่างอัปเดตในโปรแกรม"
+  }
+ ],
+ "source": "feature108.png: the 1.08 program rendered in the cloud (offscreen, the program bundled fonts, work window 1366x768 at 2x, no licence) with test_data/hino_denso/j05_rtl0_RTL0YM660110_698da48f.bin copied under a neutral name, the EGR and DPF groups switched off (not saved), the table filtered to OFF rows; caption bar drawn with Qt (same look as 1.04 - 1.07), cropped and scaled to 1024 x 539; offer.png drawn by the 1.08 code during RELEASE. No customer data."
+}

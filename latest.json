@@ -1,17 +1,17 @@
 {
  "manifest": {
-  "version": "1.07",
-  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_1.07.exe",
-  "sha256": "3f87cf537ae745688d71fb58d76c13d962ed0f590fcc04684e1413709eba5d7b",
-  "size": 41374947,
+  "version": "1.08",
+  "url": "https://raw.githubusercontent.com/Dev-LEA-KP-TECH/pro-dtc-off-master/updates/PRO_DTC_OFF_MASTER_Setup_1.08.exe",
+  "sha256": "7afad1f8386e2ca7800c4bb84fd06a7929ee982fdf4405d6a09c07922da872bd",
+  "size": 41398831,
   "notes": [
-   "Toyota / Lexus รุ่นเก่า กล่อง Denso V850 ไฟล์ 320 / 384 KB (89663-xxxxx เช่น Camry 2AZ-FE, Lexus ES300 / GS430) เปิดได้แล้ว: ปิด / เปิด DTC ได้ (ปิด = เรคคอร์ด DTC เป็น 00 ทั้ง 8 ไบต์ แบบเดียวกับ Vigo / Fortuner)",
-   "ไฟล์ Toyota Denso V850 ซอฟต์แวร์ 89665 / 89536 (ส่วนใหญ่เป็นรหัสเกียร์ออโต้) เปิดได้แล้ว ปิด / เปิด DTC ได้แบบเดียวกัน",
-   "ข้อควรรู้: สองกลุ่มนี้ยังไม่มีคู่ไฟล์ ORI / ปิด DTC ยืนยันวิธีปิดและเรื่อง checksum โปรแกรมจึงถามยืนยันก่อนบันทึก • ลองบนรถก่อนใช้งานจริง และเก็บไฟล์เดิมไว้",
-   "แก้: ไฟล์ Toyota (รวม Revo 2020+) ที่บันทึกไว้ เปิดกลับในเครื่องเดิมพร้อม ORI ที่จำไว้และเห็นครบทุกรหัส • อย่างอื่นเหมือน 1.06 • โปรแกรมไม่แก้ checksum"
+   "Hino Denso ตารางแบบใหม่ (J05 / J07 / J08 / E13 เช่น ซอฟต์แวร์ RTL0, RTB0, RAE0, RB10, R9T0, RY20) เปิดได้แล้ว: ปิด / เปิด DTC ได้ (ปิด = ตาราง DTC Level 6 ตารางของแถวเป็น 0000 เก็บรหัสไว้ แบบเดียวกับ Hino รุ่นก่อน)",
+   "ไฟล์ Hino Denso ที่รหัส DTC ในตารางถูกลบหมดแล้ว (ไฟล์ปิด DTC ที่ลบตารางมา) โปรแกรมบอกให้เปิดไฟล์ของรถคันนั้นที่ยังไม่ได้ปิด DTC แทน • ข้อควรรู้: J05 RTL0 ตรวจกับคู่ไฟล์ ORI / ปิด DTC แล้ว ซอฟต์แวร์อื่นใช้ตารางชุดเดียวกัน ลองบนรถก่อนใช้งานจริง และเก็บไฟล์เดิมไว้",
+   "แก้: Hino Denso ตารางแบบ B (เช่น R5M0 / R550 / RH30) รุ่น 1.00–1.07 ตอนปิด DTC เขียน 0000 ลงตารางถัดไปที่ไม่ใช่ตาราง DTC Level ด้วย • 1.08 เขียนเฉพาะตาราง DTC Level • ไฟล์ที่บันทึกไว้แล้ว: เลือกไฟล์ ORI แล้วกดบันทึก โปรแกรมถามให้ซ่อมก่อน (หรือกด “ซ่อมค่า Hino Denso” ในเมนูเครื่องมือ)",
+   "ภาษาในโปรแกรมเหลือ ไทย / อังกฤษ / ลาว (เครื่องที่ตั้งภาษาอื่นไว้จะเปิดเป็นอังกฤษ) • ปุ่มในเมนูเครื่องมือไม่ถูกตัดบนจอเล็ก • อย่างอื่นเหมือน 1.07 • โปรแกรมไม่แก้ checksum"
   ],
   "min_version": "0",
-  "published": "2026-11-22"
+  "published": "2026-11-24"
  },
- "signature": "w/9cvNA0D/qb0jhzqS3g8m0zqSMrwdbFjOv9grs1oL1zX5oPISa2hxYRbWTnfXHNcF14kvOsPbw9mGJc0S+2CA=="
+ "signature": "IfC73QNVyHxCiDaEedUuure21DcrQPvJdDxXuFVHHNoiNoLKmAoSJIhSycFkqpvC+tpXM1IufNyC61i6Yc5QBQ=="
 }
