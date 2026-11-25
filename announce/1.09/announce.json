@@ -1,0 +1,45 @@
+{
+ "v": 1,
+ "version": "1.09",
+ "date": "2026-11-25",
+ "size": 41406399,
+ "title": "Isuzu 4JJ1E5LE 2.5 MB เปิดได้แล้ว",
+ "alt": "อัปเดต 1.09 มาแล้ว: Isuzu 4JJ1E5LE ไฟล์ 2.5 MB (ซอฟต์แวร์ 97276066) ปิด / เปิด DTC ได้แล้ว • แก้ไฟล์ Land Rover ที่ขึ้นข้อความ Ford SID208 ผิด • เปิดโปรแกรมแล้วกด “อัปเดตเลย”",
+ "changes": [
+  {
+   "text": "Isuzu 4JJ1E5LE ไฟล์ 2.5 MB (ซอฟต์แวร์ 97276066) เปิดได้แล้ว: ปิด / เปิด DTC ได้ (ปิด = 0000 ทั้งแถว แบบเดียวกับ Isuzu รุ่นก่อน) • ตาราง DTC ของไฟล์นี้อยู่แยกจากรายการรหัส โปรแกรมหาจากตัวชี้ในเฟิร์มแวร์",
+   "kind": "new"
+  },
+  {
+   "text": "ตรวจกับไฟล์ปิด EGR ของซอฟต์แวร์ 97276066 แล้ว: ปิดแถวเดียวกันได้ไบต์ตรงทุกไบต์ และ “เปิดทั้งหมด” พร้อม ORI ได้ตารางเดิม • ไฟล์ Isuzu แบบเดียวกันของซอฟต์แวร์อื่น (เช่น 6UZ1-14 97654180) เปิดดูได้อย่างเดียว • ข้อควรรู้: ลองบนรถก่อนใช้งานจริง และเก็บไฟล์เดิมไว้",
+   "kind": "new"
+  },
+  {
+   "text": "แก้: ไฟล์ Land Rover กล่อง Bosch EDC17 4 MB ขึ้นข้อความว่าเป็นไฟล์ Ford SID208 ให้เลือก ORI (ผิด) • 1.09 ขึ้นข้อความนี้เฉพาะไฟล์ Ford SID208 • ปุ่มค้นหาไฟล์เก็บไฟล์ของรุ่นที่เปิดดูได้อย่างเดียวให้ด้วย (เช่น Mitsubishi 4N15 H1A)",
+   "kind": "new"
+  },
+  {
+   "text": "อย่างอื่นเหมือน 1.08 • ภาษาในโปรแกรม ไทย / อังกฤษ / ลาว • โปรแกรมไม่แก้ checksum",
+   "kind": "same"
+  }
+ ],
+ "images": [
+  {
+   "file": "feature109.png",
+   "role": "feature",
+   "title": "Isuzu 4JJ1E5LE 2.5 MB",
+   "text": "ไฟล์ Isuzu 4JJ1E5LE ซอฟต์แวร์ 97276066: ตาราง DTC 320 แถว ปิด EGR ได้ตามปกติ",
+   "note": "ตัวอย่างทำจากไฟล์ทดสอบ (ไม่มีข้อมูลลูกค้า)",
+   "w": 1024,
+   "h": 539
+  },
+  {
+   "file": "offer.png",
+   "w": 1024,
+   "h": 1155,
+   "role": "howto",
+   "title": "หน้าต่างอัปเดตในโปรแกรม"
+  }
+ ],
+ "source": "feature109.png: the 1.09 program rendered in the cloud (offscreen, the program bundled fonts, work window 1366x768 at 2x, no licence) with test_data/isuzu_e5le/4JJ1E5LE_97276066_read_9366c2c5.bin copied under a neutral name, the EGR group switched off (not saved), the table filtered to OFF rows; caption bar drawn with Qt (same look as 1.04 - 1.08), cropped and scaled to 1024 x 539; offer.png drawn by the 1.09 code during RELEASE. No customer data."
+}
