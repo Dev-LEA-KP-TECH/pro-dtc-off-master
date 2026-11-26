@@ -1,0 +1,49 @@
+{
+ "v": 1,
+ "version": "1.10",
+ "date": "2026-11-26",
+ "size": 41454763,
+ "title": "Bosch EDC17 / MED17 / MD1 เปิดได้แล้ว • ซื้อ License ในโปรแกรม",
+ "alt": "อัปเดต 1.10 มาแล้ว: Bosch EDC17 / MED17 / MD1 (ยุโรป) ปิด / เปิด DTC ได้ 15 ซอฟต์แวร์ • ซื้อ License ในโปรแกรมด้วย QR พร้อมเพย์ ได้คีย์ทันที ไม่ต้องส่งสลิป • หน้าต่างต่ออายุพอดีจอ • เปิดโปรแกรมแล้วกด “อัปเดตเลย”",
+ "changes": [
+  {
+   "text": "Bosch EDC17 / MED17 / MD1 (ยุโรป) ปิด / เปิด DTC ได้แล้ว 15 ซอฟต์แวร์ที่ยืนยันวิธีปิดจากคู่ไฟล์ (เช่น EDC17CP46, EDC17CP57, EDC17C66, MED17, MD1CS089) • ปิด = คลาส 00 + มาสก์ FFFF รหัสยังอยู่ในแถว",
+   "kind": "new"
+  },
+  {
+   "text": "ตรวจกับคู่ไฟล์ ORI / ปิด DTC แล้ว ไบต์ตรงทุกไบต์ • ซอฟต์แวร์อื่นที่ยังไม่ยืนยันวิธีปิด เปิดดูได้อย่างเดียว ส่งคู่ไฟล์ให้ทีมงานได้ • ลองบนรถก่อนใช้งานจริง และเก็บไฟล์เดิมไว้",
+   "kind": "new"
+  },
+  {
+   "text": "ใหม่: ซื้อ License ในโปรแกรม — หน้าใส่ Key กด “ซื้อ License ด้วย QR พร้อมเพย์” สแกนจ่ายแล้วได้คีย์ เปิดใช้งานทันที ไม่ต้องส่งสลิป • ต่ออายุก็ตรวจยอดอัตโนมัติ",
+   "kind": "new"
+  },
+  {
+   "text": "แก้: หน้าต่างต่ออายุพอดีจอ 1366 × 768 ไม่ต้องเลื่อนลง • จอแคบ / จอแนวตั้ง หน้าต่างโปรไฟล์และต่ออายุจัดหน้าใหม่ ไม่ต้องเลื่อนซ้ายขวา",
+   "kind": "new"
+  },
+  {
+   "text": "อย่างอื่นเหมือน 1.09 • ภาษาในโปรแกรม ไทย / อังกฤษ / ลาว • โปรแกรมไม่แก้ checksum",
+   "kind": "same"
+  }
+ ],
+ "images": [
+  {
+   "file": "feature110.png",
+   "role": "feature",
+   "title": "Bosch EDC17 / MED17 / MD1",
+   "text": "ไฟล์ Bosch EDC17CP46 ซอฟต์แวร์ 1037516343: ตาราง DTC 1,263 แถว ปิด EGR ได้ตามปกติ",
+   "note": "ตัวอย่างทำจากไฟล์ทดสอบ (ไม่มีข้อมูลลูกค้า)",
+   "w": 1024,
+   "h": 539
+  },
+  {
+   "file": "offer.png",
+   "w": 1024,
+   "h": 1289,
+   "role": "howto",
+   "title": "หน้าต่างอัปเดตในโปรแกรม"
+  }
+ ],
+ "source": "feature110.png: the 1.10 program rendered in the cloud by installer/render_feature_card.py (offscreen, the program bundled fonts, work window 1366x768 at 2x, no licence) with test_data/bosch_dfes/CP46_1037516343_ON.bin (sha256 54221929...) copied under a neutral name, the EGR group switched off (63 rows, not saved), the table filtered to changed rows; caption bar drawn with Qt (same look as 1.04 - 1.09), scaled to 1024 x 539; offer.png drawn by the 1.10 code during RELEASE. No customer data."
+}
