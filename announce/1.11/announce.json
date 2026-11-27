@@ -1,0 +1,49 @@
+{
+ "v": 1,
+ "version": "1.11",
+ "date": "2026-11-27",
+ "size": 41512098,
+ "title": "Honda Keihin 37805 ปิด CAT / EGR ได้เพิ่ม • ส่งข้อมูลช่วยทีมงาน",
+ "alt": "อัปเดต 1.11 มาแล้ว: Honda Keihin 37805 เปิดได้เพิ่ม ยืนยันวิธีปิดอีก 77 ซอฟต์แวร์ • Ford T5 EDC16C31 บอกชัดว่ายังไม่รองรับ • ส่งรุ่นกล่องที่ยังเปิดไม่ได้และผลบนรถให้ทีมงาน (ถามก่อน) • หน้าโปรไฟล์ไม่ต้องเลื่อน • เปิดโปรแกรมแล้วกด “อัปเดตเลย”",
+ "changes": [
+  {
+   "text": "Honda Keihin 37805 (เบนซิน) เปิดได้เพิ่ม: โปรแกรมหาตารางสวิตช์ CAT / EGR ในเฟิร์มแวร์เอง • ยืนยันวิธีปิดเพิ่ม 77 ซอฟต์แวร์จากไฟล์ของทีมงาน (รวมเดิม 122)",
+   "kind": "new"
+  },
+  {
+   "text": "Honda ซอฟต์แวร์อื่นที่มีตารางแบบเดียวกัน ปิดได้ตามแบบตระกูล (ถามยืนยันก่อนบันทึก) • ไม่แตะกันขโมยและ checksum • ลองบนรถก่อนใช้งานจริง และเก็บไฟล์เดิมไว้",
+   "kind": "new"
+  },
+  {
+   "text": "Ford Ranger / Mazda BT-50 T5 (Bosch EDC16C31): บอกชัดว่ายังไม่รองรับ พร้อมเลขซอฟต์แวร์ • ส่งคู่ไฟล์ให้ทีมงานได้ด้วยปุ่ม “ค้นหาไฟล์ที่ทีมงานต้องการ”",
+   "kind": "new"
+  },
+  {
+   "text": "ใหม่: ส่งข้อมูลช่วยทีมงาน (ถามครั้งเดียว) — รุ่นกล่องของไฟล์ที่ยังเปิดไม่ได้ และผลบนรถที่กด “ได้ผล / ไม่ได้ผล” • ไม่ส่งตัวไฟล์และชื่อไฟล์",
+   "kind": "new"
+  },
+  {
+   "text": "แก้: หน้าต่างโปรไฟล์เห็นครบไม่ต้องเลื่อน ทุกขนาดจอ • อย่างอื่นเหมือน 1.10 • ภาษาไทย / อังกฤษ / ลาว • โปรแกรมไม่แก้ checksum",
+   "kind": "same"
+  }
+ ],
+ "images": [
+  {
+   "file": "feature111.png",
+   "role": "feature",
+   "title": "Honda Keihin 37805",
+   "text": "ไฟล์ Honda 37805-RK9-Z610: ปิดสวิตช์ CAT / EGR ทั้ง 2 แถว ตามคู่ไฟล์ของทีมงาน",
+   "note": "ตัวอย่างทำจากไฟล์ทดสอบ (ไม่มีข้อมูลลูกค้า)",
+   "w": 1024,
+   "h": 539
+  },
+  {
+   "file": "offer.png",
+   "w": 1024,
+   "h": 1289,
+   "role": "howto",
+   "title": "หน้าต่างอัปเดตในโปรแกรม"
+  }
+ ],
+ "source": "feature111.png: the 1.11 program rendered in the cloud by installer/render_feature_card.py (offscreen, the program bundled fonts, work window 1366x768 at 2x, no licence) with test_data/honda_37805/RK9-Z610_ori.bin copied under a neutral name, every row switched off (group *, not saved); caption bar drawn with Qt (same look as 1.04 - 1.10), scaled to 1024 x 539; offer.png drawn by the 1.11 code during RELEASE. No customer data."
+}
